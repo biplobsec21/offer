@@ -288,7 +288,7 @@
                             </ul>
                         </li>
                         @endif
-                        <li class="nav-item">
+                        {{-- <li class="nav-item">
                             <a href="#"
                                 class="nav-link {{ isset($page) && ($page == 'brand_setting') ? 'active': '' }}">
                                 <i class="nav-icon far fas fa-check"></i>
@@ -319,7 +319,7 @@
                                     </a>
                                 </li>
                             </ul>
-                        </li>
+                        </li> --}}
 
                         <li class="nav-item">
                             <a href="{{ route('product.list') }}"
