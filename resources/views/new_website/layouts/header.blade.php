@@ -65,7 +65,7 @@
                                                     <table class="table">
                                                         <tbody>
                                                             @php
-                                                            $offer=\App\Model\Offer::select('vendor_id','title','id','code')
+                                                            $offer=\App\Model\Offer::select('vendor_id','title','id','code','category_id')->where('category_id',$cat_val->id)
                                                             ->groupBy('vendor_id')->get()->take(10);
                                                             @endphp
                                                             @if ($offer)
@@ -107,8 +107,8 @@
                                                                     @endif
                                                                 </td>
                                                             </tr>
-                                                            @endforeach
 
+                                                            @endforeach
                                                             @endif
 
 

@@ -22,7 +22,7 @@ $vendor=\App\Model\Vendor::where('affiliation_id',$_GET['affiliation_id'])->firs
 $products=\App\Model\Product::where('id',$_GET['product_id'])->first();
 $offer=\App\Model\Offer::where('id',$_GET['offer_id'])->first();
 if($offer->type == 1){ // 1 cash
-$price=$products->price-$offer->ammount;
+$price=$products->price-$offer->amount;
 }
 if($offer->type == 3){ // 3 percentage
 $price=$products->price - (($offer->amount/100));
@@ -41,7 +41,7 @@ $price=$products->price - (($offer->amount/100));
                                     alt="...">
                             </div>
                             <div class="col-sm-7">
-                                <div class="card-body">
+                                <div class="card-body" style="overflow: hidden;">
                                     <h5 class="card-title">{{$products->sub_title_english_name}}</h5>
                                     <p class="card-text">{!!$products->description!!}</p>
                                     <h3 style="text-align:left;color:red;">{{$offer->title}}</h3>

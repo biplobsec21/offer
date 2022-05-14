@@ -42,7 +42,7 @@ use Illuminate\Support\Facades\Route;
         Route::post('/signup', 'HomeController@signup')->name('signup');
         Route::get('/logout', 'HomeController@logout')->name('logout');
         Route::get('/dashboard', 'HomeController@dashboard')->name('dashboard');
-
+        Route::get('/vendorprofile/{name}/{id}','HomeController@vendorprofile')->name('vendorprofile');
 Route::prefix('admin')->group(function () {
     Route::group(['middleware' => 'checkAdmin'], function () {
 

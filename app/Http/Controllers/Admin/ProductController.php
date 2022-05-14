@@ -49,7 +49,7 @@ class ProductController extends Controller
         $validateData = $request->validate([
             'title_english_name' => 'required',
             'sub_title_english_name' => 'required',
-            'brand' => 'required',
+            // 'brand' => 'required',
             'category_id' => 'required',
             // 'composition_bangla_name' => 'required',
         ]);
@@ -71,7 +71,7 @@ class ProductController extends Controller
         $data->vendor_id = $userType == 'admin' ? $request->input('vendor_id'): $userId;
 
         $data->description = $request->description;
-        $data->brand = $request->brand;
+        $data->brand = $request->brand??'';
         $data->offer = $request->offer;
         $data->price = $request->price;
         $data->product_sku= random_int(1000000, 9999999);
@@ -195,7 +195,7 @@ class ProductController extends Controller
         $validateData = $request->validate([
             'title_english_name' => 'required',
             'sub_title_english_name' => 'required',
-            'brand' => 'required',
+            // 'brand' => 'required',
             'category_id' => 'required',
             // 'composition_bangla_name' => 'required',
         ]);
@@ -212,7 +212,7 @@ class ProductController extends Controller
         $data->sub_title_english_name = $request->sub_title_english_name;
 
         $data->description = $request->description;
-        $data->brand = $request->brand;
+        $data->brand = $request->brand??'';
         $data->offer = $request->offer;
         $data->price = $request->price;
 

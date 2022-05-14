@@ -28,22 +28,15 @@
         </div>
     </div>
     <div class="carousel-controls">
-        <button class="carousel-control carousel-control-left" type="button"
-            style="background: #f3f3f3;border-radius: 50%;height: 52px; ">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40" height="48">
-                <path fill-rule="evenodd"
-                    d="M10.78 19.03a.75.75 0 01-1.06 0l-6.25-6.25a.75.75 0 010-1.06l6.25-6.25a.75.75 0 111.06 1.06L5.81 11.5h14.44a.75.75 0 010 1.5H5.81l4.97 4.97a.75.75 0 010 1.06z">
-                </path>
-            </svg>
-        </button>
-        <button class="carousel-control carousel-control-right" type="button"
-            style="background: #f3f3f3;border-radius: 50%;height: 52px; ">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40" height="48">
-                <path fill-rule="evenodd"
-                    d="M13.22 19.03a.75.75 0 001.06 0l6.25-6.25a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 10-1.06 1.06l4.97 4.97H3.75a.75.75 0 000 1.5h14.44l-4.97 4.97a.75.75 0 000 1.06z">
-                </path>
-            </svg>
-        </button>
+        <div class="carousel-control carousel-control-left" role="button"
+            style="opacity:1 !important; height: 33px;width: 33px;border-radius: 50%;background: #195e7345;">
+            <span class="carousel-control-prev-icon" style="margin-top: 6px;margin-left: 5px;"></span>
+        </div>
+        <div class="carousel-control carousel-control-right" role="button"
+            style="opacity:1 !important; height: 33px;width: 33px;border-radius: 50%;background: #195e7345; ">
+            <span class="carousel-control-next-icon" style="margin-top: 6px;margin-left: 5px;"></span>
+
+        </div>
     </div>
 </section>
 
@@ -52,10 +45,10 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-10 offset-lg-1 hotel-details-inner">
-                <div class="banner-slider-header">
-                    <h2 style=" font-weight: bold;text-align: left;color: #d9b389;">Stores our members love</h2>
+                <div class="banner-slider-header" style="padding-left:33px;">
+                    <h2 style=" font-weight: bold;text-align: left;color:#d9b389;font-size:30px;">Stores our members
+                        love</h2>
                 </div>
-
                 <div class="loop owl-carousel owl-theme select-hotel-carosel">
                     @if ($brand)
                     @foreach ($brand as $val)
@@ -63,7 +56,8 @@
                     <div class="item">
                         <div class="slider-box">
                             <div class="box-inner">
-                                <img style="height:80px;" src="{{ asset('/images/'.$val->icon) }}">
+                                <a href="{{route('vendorprofile',['name'=>$val->name,'id'=>$val->id])}}">
+                                    <img style="height:80px;" src="{{ asset('/images/'.$val->icon) }}"></a>
                             </div>
                         </div>
                         {{-- <h3 style="color:red;text-align:left">2% Cash Back</h3> --}}
@@ -75,7 +69,6 @@
 
 
                 </div>
-
             </div>
         </div>
     </div>
@@ -88,7 +81,7 @@
         <div class="row">
             <div class="col-lg-10 offset-lg-1 hotel-details-inner">
                 <div class="banner-slider-header">
-                    <h2 style=" font-weight: bold;text-align: left;color: #d9b389;">Deals of the week
+                    <h2 style="  font-weight: bold;text-align: left;color:#d9b389;font-size:30px;">Deals of the week
                     </h2>
                 </div>
                 <div class="row">

@@ -49,7 +49,7 @@
                                 <td>
                                     <p>{{$data->title_english_name}}</p>
                                     <p>{{$data->sub_title_english_name}}</p>
-                                    <span class="span-warning ml-2">{{@$data->getBrand->name}}</span>
+                                    {{-- <span class="span-warning ml-2">{{@$data->getBrand->name}}</span> --}}
                                 </td>
                                 <td>{{$data->price}} TK</td>
                                 <td>

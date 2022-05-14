@@ -10,7 +10,8 @@ use App\Model\Aboutus;
 use App\Model\Brand;
 use App\Model\Vendor;
 use App\Model\Product;
-use App\Model\News;
+use App\Model\Offer;
+
 use App\Model\Messages;
 use App\Model\ImageUpload;
 use App\Model\User;
@@ -288,5 +289,27 @@ public function login(Request $request){
             session()->flush();
             return redirect()->route('toppage');
         }
-        
+        public function vendorprofile(Request $request){
+            if(session()->get('user_type') == 'admin' || session()->get('user_type') == 'vendor'){
+                return redirect()->route('admin.dashboard')->with('message','Please logout from admin panel');
+            }
+            $category=Category::where('status',1)->where('parent_id',0)->get();
+            $banner=Banner::where('status',1)->get();
+            $brand=Brand::where('status',"ACTIVE")->get();
+            $vendor=Vendor::find($request->id);
+            
+            $product=Product::where('vendor_id',$request->id)->where('status','ACTIVE')->get();
+            $offer=Offer::where('status','ACTIVE')->where('vendor_id',$request->id)->get();
+            return view('new_website.pages.vendor.vendor_profile')
+
+
+            ->with('category',$category)
+            ->with('banner',$banner)
+            ->with('brand',$brand)
+            ->with('vendor_id',$request->id)
+
+            ->with('vendor',$vendor)
+            ->with('product',$product)
+            ->with('offer',$offer);
+        }
 }

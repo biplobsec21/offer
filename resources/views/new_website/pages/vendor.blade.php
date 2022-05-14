@@ -57,13 +57,16 @@ $cat=\App\Model\Category::where('id',$_GET['category_id'])->first();
         <div class="row">
             <div class="col-lg-10 offset-lg-1 hotel-details-inner">
                 <div class="banner-slider-header">
-                    <h2 style=" font-weight: bold;text-align: center;color:red;"> {{$offer->title}} on
+
+                    <h2
+                        style=" font-weight: bold;text-align: left;color:#d9b389;font-size:30px;text-transform:uppercase">
+                        {{$offer->title}} on
                         {{$cat->english_name}} Products
                     </h2>
                 </div>
                 <div class="row">
                     @php
-                    $products=\App\Model\Product::where('offer',$_GET['offer_id'])->get();
+                    $products=\App\Model\Product::where('offer',$_GET['offer_id'])->where('vendor_id',$_GET['vendor_id'])->get();
                     @endphp
                     @if($products)
                     @foreach ( $products as $pv)
@@ -142,7 +145,9 @@ $cat=\App\Model\Category::where('id',$_GET['category_id'])->first();
         <div class="row">
             <div class="col-lg-10 offset-lg-1 hotel-details-inner">
                 <div class="banner-slider-header">
-                    <h2 style=" font-weight: bold;text-align: left;color: #d9b389;">Other Available Offer
+                    <h2
+                        style="font-weight: bold;text-align: left;color:#d9b389;font-size:30px;text-transform:uppercase">
+                        Other Available Offer
                     </h2>
                 </div>
                 <div class="row">
