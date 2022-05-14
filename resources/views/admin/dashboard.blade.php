@@ -39,7 +39,7 @@
         <div class="icon">
           <i class="fa fa-list"></i>
         </div>
-        <a href="{{ route('offer.list')}}" class="small-box-footer">More info <i
+        <a href="{{ route('product.list')}}" class="small-box-footer">More info <i
             class="fas fa-arrow-circle-right"></i></a>
       </div>
     </div>
