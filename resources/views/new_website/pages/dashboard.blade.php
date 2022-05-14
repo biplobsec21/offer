@@ -50,7 +50,7 @@
                         $products=\App\Model\Product::where('id',$val->product_id)->first();
                         @endphp
                         <div class="col-sm-12 col-md-4">
-                            <div class="card" style="max-width:310px;">
+                            <div class="card" style="width:310px;">
                                 <img src="{{ asset('/images/'.$products->thumb_image) }}" class="card-img-top" alt="..."
                                     style="">
                                 <div class="card-body">
