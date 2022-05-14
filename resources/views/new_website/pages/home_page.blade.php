@@ -59,6 +59,7 @@
                 <div class="loop owl-carousel owl-theme select-hotel-carosel">
                     @if ($brand)
                     @foreach ($brand as $val)
+                    @if ($val->status == 'ACTIVE')
                     <div class="item">
                         <div class="slider-box">
                             <div class="box-inner">
@@ -67,6 +68,7 @@
                         </div>
                         {{-- <h3 style="color:red;text-align:left">2% Cash Back</h3> --}}
                     </div>
+                    @endif
                     @endforeach
                     @endif
 
