@@ -8,6 +8,7 @@ use App\Model\Banner;
 use App\Model\Settings;
 use App\Model\Aboutus;
 use App\Model\Brand;
+use App\Model\Vendor;
 use App\Model\Product;
 use App\Model\News;
 use App\Model\Messages;
@@ -39,7 +40,7 @@ class HomeController extends Controller
         }
         $category=Category::where('status',1)->where('parent_id',0)->get();
         $banner=Banner::where('status',1)->get();
-        $brand=Brand::where('status',"ACTIVE")->get();
+        $brand=Vendor::where('status',"ACTIVE")->get();
         // $news=News::where('status',1)->orderBy('id','desc')->get()->take(4);
         // $settings=Settings::where('status',1)->first();
         // $about=Aboutus::where('status',1)->first();

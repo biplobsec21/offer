@@ -62,7 +62,7 @@
                     <div class="item">
                         <div class="slider-box">
                             <div class="box-inner">
-                                <img style="height:80px;" src="{{ asset('/images/'.$val->banner) }}">
+                                <img style="height:80px;" src="{{ asset('/images/'.$val->icon) }}">
                             </div>
                         </div>
                         {{-- <h3 style="color:red;text-align:left">2% Cash Back</h3> --}}
