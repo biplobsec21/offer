@@ -148,8 +148,9 @@
                                     @endphp
                                     @endif
 
-
+                                    @if ($order->count() > 0)
                                     <span class="badge badge-warning">{{$order->count()}}</span>
+                                    @endif
 
                                 </p>
                             </a>
