@@ -3,51 +3,50 @@
 
 @endsection
 @section('content')
-<section class="section-with-carousel section-with-left-offset position-relative mt-5">
+<section class="section-with-carousel section-with-left-offset position-relative mt-5 mb-1">
+    <div class="col-lg-10 offset-lg-1 hotel-details-inner">
+        <div class="carousel-wrapper">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    @if ($banner)
+                    @foreach ($banner as $val)
+                    <div class="swiper-slide" style="width:60% !important">
+                        <figure>
 
-    <div class="carousel-wrapper">
-        <div class="swiper">
-            <div class="swiper-wrapper">
-                @if ($banner)
-                @foreach ($banner as $val)
-                <div class="swiper-slide">
-                    <figure>
+                            <img width="540" height="380" src="{{ asset('/images/'.$val->image) }}" alt="">
 
-                        <img width="540" height="380" src="{{ asset('/images/'.$val->image) }}" alt="">
+                            {{-- <figcaption>
+                                Small title for the slider
 
-
-                        {{-- <figcaption>
-                            Small title for the slider
-
-                        </figcaption> --}}
-                    </figure>
+                            </figcaption> --}}
+                        </figure>
+                    </div>
+                    @endforeach
+                    @endif
                 </div>
-                @endforeach
-                @endif
             </div>
         </div>
-    </div>
-    <div class="carousel-controls">
-        <div class="carousel-control carousel-control-left" role="button"
-            style="opacity:1 !important; height: 33px;width: 33px;border-radius: 50%;background: #195e7345;">
-            <span class="carousel-control-prev-icon" style="margin-top: 6px;margin-left: 5px;"></span>
-        </div>
-        <div class="carousel-control carousel-control-right" role="button"
-            style="opacity:1 !important; height: 33px;width: 33px;border-radius: 50%;background: #195e7345; ">
-            <span class="carousel-control-next-icon" style="margin-top: 6px;margin-left: 5px;"></span>
+        <div class="carousel-controls">
+            <div class="carousel-control carousel-control-left" role="button"
+                style="opacity:1 !important; height: 33px;width: 33px;border-radius: 50%;background: #195e7345;">
+                <span class="carousel-control-prev-icon" style="margin-top: 6px;margin-left: 5px;"></span>
+            </div>
+            <div class="carousel-control carousel-control-right" role="button"
+                style="opacity:1 !important; height: 33px;width: 33px;border-radius: 50%;background: #195e7345; ">
+                <span class="carousel-control-next-icon" style="margin-top: 6px;margin-left: 5px;"></span>
 
+            </div>
         </div>
     </div>
 </section>
 
 
-<section class="hotel-details-section">
+<section class="hotel-details-section mb-4">
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-10 offset-lg-1 hotel-details-inner">
-                <div class="banner-slider-header" style="padding-left:33px;">
-                    <h2 style=" font-weight: bold;text-align: left;color:#d9b389;font-size:30px;">Stores our members
-                        love</h2>
+                <div class="banner-slider-header m-0">
+                    <h2 class="site-secondary-title">[box -1 ] Trending 2X Cash Back stores</h2>
                 </div>
                 <div class="loop owl-carousel owl-theme select-hotel-carosel">
                     @if ($brand)
@@ -55,12 +54,21 @@
                     @if ($val->status == 'ACTIVE')
                     <div class="item">
                         <div class="slider-box">
-                            <div class="box-inner">
+                            <div class="box-inner p-0">
                                 <a href="{{route('vendorprofile',['name'=>$val->name,'id'=>$val->id])}}">
-                                    <img style="height:80px;" src="{{ asset('/images/'.$val->icon) }}"></a>
+                                    <img style="height:88px;border-radius:5px;"
+                                        src="{{ asset('/images/'.$val->icon) }}"></a>
                             </div>
                         </div>
-                        {{-- <h3 style="color:red;text-align:left">2% Cash Back</h3> --}}
+                        <div class="m-0 p-0 text-left" style="vertical-align: middle">
+                            <span>
+                                <i class="fa fa-solid fa-plus circle-red"></i>
+                            </span>
+                            <span class="text-red">
+                                80% cash back
+                            </span>
+                            <span class="text-gray">Was 20%</span>
+                        </div>
                     </div>
                     @endif
                     @endforeach
@@ -74,56 +82,132 @@
     </div>
 </section>
 <!-- Banner Section End -->
-
-
-<section class="hotel-details-section mt-2">
-    <div class="container-fluid" style="padding-left:54px">
+<section class="hotel-details-section mb-4">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-lg-10 offset-lg-1 hotel-details-inner">
-                <div class="banner-slider-header">
-                    <h2 style="  font-weight: bold;text-align: left;color:#d9b389;font-size:30px;">Deals of the week
-                    </h2>
+                <div class="banner-slider-header m-0">
+                    <h2 class="site-secondary-title">[Box-2] Pack up and go! 2x Cash Back</h2>
                 </div>
-                <div class="row">
+                <div class="loop owl-carousel owl-theme ">
                     @php
                     $allOffer=\App\Model\Offer::get()->take(30);
                     @endphp
-                    @if ($allOffer)
-                    @foreach ($allOffer as $dt )
-                    <div class="card d-flex m-2 shadow-sm"
-                        style="width: 18rem;background: #00000003;/* border-radius: 10px !important; */border: none;box-shadow: 0 0 4px rgb(0 0 0 / 23%);min-height:200px;">
-                        @if ($dt->icon_image)
-                        <img class="card-img-top shadow-lg" src="{{ asset('/images/'.$dt->icon_image) }}"
-                            alt="Card image cap">
-                        @endif
 
-                        <div class="card-body">
-                            <h3 style="color:red;text-align:left">{{$dt->title}}</h3>
-                            <p class="card-text"
-                                style="text-align: left;font-size: 16px;color: #264753;font-weight: bold;">Spring
-                                red-tag savings are here.</p>
-                            @php
-                            $vendor=\App\Model\Vendor::find($dt->vendor_id);
-                            @endphp
-                            <a href='{{url("allproducts?vendor_id=".$vendor->id."&affiliation_id=".$vendor->affiliation_id."&category_id=".$dt->category_id."
-                                &offer_code=".$dt->code." &offer_id=".$dt->id)}}'
-                                class="btn btn-primary see_details">See detials</a>
+                    @if ($allOffer)
+                    @foreach ($allOffer as $val)
+                    @if ($val->status == 'ACTIVE')
+                    <div class="item">
+                        <div class="slider-box mb-3">
+                            <div class="box-inner p-0" style="position: relative">
+
+                                <img style="height:115px;border-radius:5px;"
+                                    src="{{ asset('/images/'.$val->icon_image) }}">
+
+                                <a href='' class="btn btn-primary btn-sm see_details">See detials</a>
+                            </div>
+                        </div>
+
+                        <div class="m-0 p-0 text-left" style="vertical-align: middle">
+                            <span>
+                                <i class="fa fa-solid fa-plus circle-red"></i>
+                            </span>
+                            <span class="text-red">
+                                80% cash back
+                            </span>
+                            <span class="text-gray">Was 20%</span>
+                        </div>
+                        <div class="m-0 p-0 text-left" style="vertical-align: middle">
+                            <span class="text-gray-bold">
+                                {{$val->title}}
+                            </span>
+
                         </div>
                     </div>
+                    @endif
                     @endforeach
                     @endif
+
+
                 </div>
             </div>
         </div>
+    </div>
+</section>
+<!-- Banner Section End -->
+
+<!-- Banner Section End -->
+<section class="hotel-details-section mb-4">
+    <div class="container-fluid">
+        <div class="row flex">
+            <div class="col-lg-10 offset-lg-1  hotel-details-inner" style="display: inline-table;">
+                <div class="banner-slider-header m-0">
+                    <h2 class="site-secondary-title">[BOX-3]Stores our members
+                        love</h2>
+                </div>
+                <div class="card mb-3 p-0 col-lg-6"
+                    style="/* width: 50%; */height:97px;/* border-radius: 15px; */border: none;display: inline-block;">
+                    <div class="row p-2 m-1"
+                        style="box-shadow: 0px 4px 8px #0a164626;border-radius: 10px;/* height: 78px !important; */">
+                        <div style="width: 15%;height:47px;/* vertical-align: middle; */">
+                            <img src="https://via.placeholder.com/150" class="" alt="..." height="47px" width="96px"
+                                style="margin-top: 14px;margin-left: 14px;">
+                        </div>
+                        <div style="width: 79%;">
+                            <div class="card-body p-2 mb-2">
+                                <h5 class="card-title" style="margin-top: 11px;">This is a wider card with supporting
+                                    text belo</h5>
+                                <div class=" p-0 text-left" style="vertical-align: middle;margin-top: -10px;">
+                                    <span>
+                                        <i class="fa fa-solid fa-plus circle-red"></i>
+                                    </span>
+                                    <span class="text-red">
+                                        80% cash back
+                                    </span>
+                                    <span class="text-gray">Was 20%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 p-0 col-lg-6"
+                    style="/* width: 50%; */height:97px;/* border-radius: 15px; */border: none;display: inline-block;">
+                    <div class="row p-2 m-1"
+                        style="box-shadow: 0px 4px 8px #0a164626;border-radius: 10px;/* height: 78px !important; */">
+                        <div style="width: 15%;height:47px;/* vertical-align: middle; */">
+                            <img src="https://via.placeholder.com/150" class="" alt="..." height="47px" width="96px"
+                                style="margin-top: 14px;margin-left: 14px;">
+                        </div>
+                        <div style="width: 79%;">
+                            <div class="card-body p-2 mb-2">
+                                <h5 class="card-title" style="margin-top: 11px;">This is a wider card with supporting
+                                    text belo</h5>
+                                <div class=" p-0 text-left" style="vertical-align: middle;margin-top: -10px;">
+                                    <span>
+                                        <i class="fa fa-solid fa-plus circle-red"></i>
+                                    </span>
+                                    <span class="text-red">
+                                        80% cash back
+                                    </span>
+                                    <span class="text-gray">Was 20%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <!-- Banner Section End -->
 
-{{--
+
 <section class="section-with-carousel section-with-left-offset position-relative mt-5">
     <div class="col-lg-10 offset-lg-1 hotel-details-inner">
         <div class="banner-slider-header">
-            <h2 style=" font-weight: bold;text-align: left;color: #d9b389;font-size: 24px;">More Ways to Earn Cash
+            <h2 style=" font-weight: bold;text-align: left;color: #d9b389;font-size: 24px;">More Ways to
+                Earn Cash
                 Back
             </h2>
         </div>
@@ -198,44 +282,81 @@
 </section>
 
 
+<section class="hotel-details-section mb-4">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1 hotel-details-inner">
+                <div class="banner-slider-header m-0">
+                    <h2 class="site-secondary-title">[box -1 ] Top category</h2>
+                </div>
+                <div class="loop owl-carousel owl-theme select-hotel-carosel">
+                    @if ($brand)
+                    @foreach ($brand as $val)
+                    @if ($val->status == 'ACTIVE')
+                    <div class="item">
+                        <div class="slider-box">
+                            <div class="box-inner p-0">
+                                <a href="{{route('vendorprofile',['name'=>$val->name,'id'=>$val->id])}}">
+                                    <img style="height:88px;border-radius:5px;"
+                                        src="{{ asset('/images/'.$val->icon) }}"></a>
+                            </div>
+                        </div>
+                        <div class="m-0 p-0 text-left" style="vertical-align: middle">
+
+                            <span class="text-gray-bold ">
+                                Category name
+                            </span>
+                        </div>
+                    </div>
+                    @endif
+                    @endforeach
+                    @endif
 
 
-<section class="banner">
 
-    <div class="container">
-        <div class="owl-carousel owl-theme">
-            <div class="item">
-                <img src='{{asset("assets/img/backgrounds/1.jpg")}}' class="img-fluid mx-auto d-block" alt="img1" />
-            </div>
-            <div class="item">
-                <img src='{{asset("assets/img/backgrounds/2.jpg")}}' class="img-fluid mx-auto d-block" alt="img2">
-            </div>
-            <div class="item">
-                <img src='{{asset("assets/img/backgrounds/8.jpg")}}' class="img-fluid mx-auto d-block" alt="img8">
-            </div>
-            <div class="item">
-                <img src='{{asset("assets/img/backgrounds/8.jpg")}}' class="img-fluid mx-auto d-block" alt="img8">
+                </div>
             </div>
         </div>
     </div>
-
-</section> --}}
+</section>
+<!-- Banner Section End -->
 
 @endsection
 @section('footer_css_js')
 <style>
+    .swiper-slide-active {
+        width: 66% !important;
+    }
+
     .see_details {
         position: absolute;
-        top: 125px;
+        width: 105px;
+        bottom: -9px;
+        text-transform: none !important;
         right: 10px;
-        border-radius: 12px;
+        border-radius: 30px !important;
         background: white !important;
-        color: #264653;
-        font-weight: bold;
+        color: #195e73;
         padding: 6px;
         border: 1px solid #e1dede;
-        -webkit-box-shadow: 1px 7px 4px 5px rgb(0 0 0 / 24%);
-        box-shadow: 1px 1px 14px 1px rgb(0 0 0 / 6%);
+        -webkit-box-shadow: 0px 4px 8px #0a164626;
+        box-shadow: 0px 4px 8px #0a164626
+    }
+
+    .see_details a {
+        font-size: 14px;
+        padding-left: 11px;
+        padding-right: 11px;
+        font-weight: normal;
+        border-radius: 27px;
+    }
+
+    .see_details a:hover {
+        background-color: #195e73;
+    }
+
+    .btn-primary:hover {
+        color: #195e73;
     }
 </style>
 @endsection

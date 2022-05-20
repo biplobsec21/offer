@@ -35,6 +35,42 @@
       background: #195e73 !important;
       border: #195e73 !important;
     }
+
+    .site-secondary-title {
+      font-weight: bold !important;
+      text-align: left !important;
+      color: #d9b389;
+      font-size: 20px;
+    }
+
+    .text-red {
+      font-size: 16px;
+      font-weight: bold;
+      color: #f50e02;
+    }
+
+    .text-gray-bold {
+      font-size: 16px;
+      font-weight: bold;
+      color: #292929;
+    }
+
+    .text-gray {
+      font-size: 14px;
+      font-weight: normal;
+      color: #737373;
+    }
+
+    .circle-red {
+      display: inline-block;
+      border-radius: 50%;
+      box-shadow: 0 0 1px #88888882;
+      padding: 1px 2px;
+      background: #f50e02;
+      color: white;
+      font-size: 12px;
+      vertical-align: middle;
+    }
   </style>
 </head>
 
@@ -304,18 +340,19 @@ $("#signup_form").on("submit", function (e) {
   });
 
   $('.owl-carousel').owlCarousel({
-    loop: true,
+    loop: false,
     margin: 10,
     nav: true,
+    // row:2,
     responsive: {
       0: {
-        items: 1
+        items: 3
       },
       600: {
         items: 3
       },
       1000: {
-        items: 5
+        items: 6
       }
     }
   })
