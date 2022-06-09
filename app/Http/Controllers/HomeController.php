@@ -312,4 +312,18 @@ public function login(Request $request){
             ->with('product',$product)
             ->with('offer',$offer);
         }
+
+        public function test()
+        {
+            $category=Category::where('status',1)->where('parent_id',0)->get();
+        $banner=Banner::where('status',1)->get();
+        $brand=Brand::where('status',"ACTIVE")->get();
+            return view('vendor_with_website')
+            ->with('banner',$banner)
+            ->with('category',$category)
+            ->with('brand',$brand);
+              
+        } 
+        
+
 }

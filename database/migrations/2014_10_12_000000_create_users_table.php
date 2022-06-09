@@ -23,7 +23,7 @@ class CreateUsersTable extends Migration
             $table->timestamps();
         });
     }
-
+1
     /**
      * Reverse the migrations.
      *

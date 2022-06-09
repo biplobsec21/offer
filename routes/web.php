@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Maatwebsite\Excel\Row;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,7 +17,8 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/', function () {
 //     return view('welcome');
 // });
-
+      Route::get('test','HomeController@test');
+      
         Route::get('/', 'HomeController@index')->name('toppage');
 //  Route::get('/aboutus', 'SiteController@aboutus')->name('aboutus.list');
         Route::get('/allnews', 'HomeController@allnews')->name('allnews');

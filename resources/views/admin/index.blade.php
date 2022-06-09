@@ -81,7 +81,7 @@
                     </a>
                     <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
                         <div class="dropdown-divider"></div>
-                        <a href="{{ route('admin.edit',session::get('user.id'))}}" class="dropdown-item">
+                        <a href="{{ route('admin.edit',session()->get('user.id'))}}" class="dropdown-item">
                             <i class="fas fa-edit"></i> Profile
                         </a>
                         <div class="dropdown-divider"></div>
@@ -111,7 +111,7 @@
                         <img src="{{ asset('admin/images/user.png') }}" class="img-circle elevation-2" alt="User Image">
                     </div>
                     <div class="info">
-                        <a href="#" class="d-block">{{ session::get('user.email')}}</a>
+                        <a href="#" class="d-block">{{ session()->get('user.email')}}</a>
                     </div>
                 </div>
 
@@ -426,9 +426,9 @@
 
             <!-- Main content -->
             <section class="content">
-                @if(Session::has('message'))
-                <p id="flashMessage" class="alert {{ Session::get('alert-class', 'alert-info') }}">{{
-                    Session::get('message') }}</p>
+                @if(session()->has('message'))
+                <p id="flashMessage" class="alert {{ session()->get('alert-class', 'alert-info') }}">{{
+                    session()->get('message') }}</p>
                 @endif
                 @yield('content')
             </section>

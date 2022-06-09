@@ -16,15 +16,15 @@ class CheckAdmin
      */
     public function handle($request, Closure $next)
     {   
-
-        $user = Session::get('user');
-        $is_admin = Session::get('user_type');
-        // dd($user->is_super_admin);
-        if($is_admin == 'admin' || $is_admin == 'vendor'){
-            return $next($request);
-        }
-        else{
-           dd('User type error');
-        }
+        return $next($request);
+        // $user = Session::get('user');
+        // $is_admin = Session::get('user_type');
+        // // dd($user->is_super_admin);
+        // if($is_admin == 'admin' || $is_admin == 'vendor'){
+        //     return $next($request);
+        // }
+        // else{
+        //    dd('User type error');
+        // }
     }
 }
