@@ -39,184 +39,22 @@
                             <div class="merchant-signup-text">
                                 <h2 id="ctl00_GeckoTwoColPrimary_merchantPnl_lblNewMerchantHeader" class="merchant-panel-description">Get up to 8% of your purchase back when you shop with Nike</h2>
                             </div>
-                            <div class="merchant-signup-text">
-                                <span id="ctl00_GeckoTwoColPrimary_merchantPnl_lblNewMerchantDescription">Sign up for free and just shop with Nike as normal. Our members earned $80,000+ at Nike in the past month.</span>
-                                <span id="ctl00_GeckoTwoColPrimary_merchantPnl_lblMerchantCurrencySign"></span>
-                            </div>
+                           
                         </div>
                         <div id="ctl00_GeckoTwoColPrimary_merchantPnl_tempSignUp" class="join-form">
                             <link rel="stylesheet" href="{{asset('topCashback')}}/bundles/static/css/join-form-4173c64af7.css" type="text/css" />
                             <form action="https://www.topcashback.com/action_page.php">
-                                <div id="formContainer" onkeypress="javascript:return WebForm_FireDefaultButton(event, &#39;btnJoin&#39;)">
-                                    <div class="form-float-element">
-                                        <input name="ctl00$GeckoTwoColPrimary$merchantPnl$JoinForm$emailInput" id="emailInput" type="text" autocomplete="false" onchange="inputChanged(this);" name="email" spellcheck="false" />
-                                        <label for="emailInput" class="label-name">
-                                            <span id="ctl00_GeckoTwoColPrimary_merchantPnl_JoinForm_EmailPlaceholder" class="content-name">Email</span>
-                                        </label>
-                                        <span id="typoHolder" class="typo-holder"></span>
-                                    </div>
-                                    <div class="form-float-element">
-                                        <input name="ctl00$GeckoTwoColPrimary$merchantPnl$JoinForm$passwordInput" id="passwordInput" type="password" autocomplete="new-password" onchange="inputChanged(this);" name="psw" />
-                                        <label for="passwordInput" class="label-name">
-                                            <span id="ctl00_GeckoTwoColPrimary_merchantPnl_JoinForm_PasswordPlaceholder" class="content-name">Choose a password</span>
-                                        </label>
-                                        <div id="passwordEye" class="show-password" onclick="showPassword()"></div>
-                                    </div>
-                                
-                                    <div id="passwordFeedbackContainer" class="hidden">
-                                        <div id="requirementsContainer" class="requirements-container">
-                                            <div class="requirement">
-                                                <div class="image-container">
-                                                    <img
-                                                        src="https://d15z7dtgvh220z.cloudfront.net/images/gecko-images/join-form/password-cross.svg"
-                                                        id="upperLowerCross"
-                                                        onerror="this.onerror = null;this.src = &#39;/images/gecko-images/join-form/password-cross.png&#39;;"
-                                                        alt="cross"
-                                                    />
-                                                    <img
-                                                        src="https://d15z7dtgvh220z.cloudfront.net/images/gecko-images/join-form/password-checkmark.svg"
-                                                        id="upperLowerTick"
-                                                        onerror="this.onerror = null;this.src = &#39;/images/gecko-images/join-form/password-checkmark.png&#39;;"
-                                                        alt="tick"
-                                                        class="hidden"
-                                                    />
-                                                </div>
-                                                <p id="ctl00_GeckoTwoColPrimary_merchantPnl_JoinForm_ctl02_upperAndLowercaseInfo">Upper and lowercase letters</p>
-                                            </div>
-                                            <div class="requirement">
-                                                <div class="image-container">
-                                                    <img
-                                                        src="https://d15z7dtgvh220z.cloudfront.net/images/gecko-images/join-form/password-cross.svg"
-                                                        id="lengthCross"
-                                                        onerror="this.onerror = null;this.src = &#39;/images/gecko-images/join-form/password-cross.png&#39;;"
-                                                        alt="cross"
-                                                    />
-                                                    <img
-                                                        src="https://d15z7dtgvh220z.cloudfront.net/images/gecko-images/join-form/password-checkmark.svg"
-                                                        id="lengthTick"
-                                                        onerror="this.onerror = null;this.src = &#39;/images/gecko-images/join-form/password-checkmark.png&#39;;"
-                                                        alt="tick"
-                                                        class="hidden"
-                                                    />
-                                                </div>
-                                                <p id="ctl00_GeckoTwoColPrimary_merchantPnl_JoinForm_ctl02_minimumLengthInfo">At least 8 characters</p>
-                                            </div>
-                                            <div class="requirement">
-                                                <div class="image-container">
-                                                    <img
-                                                        src="https://d15z7dtgvh220z.cloudfront.net/images/gecko-images/join-form/password-cross.svg"
-                                                        id="numberCross"
-                                                        onerror="this.onerror = null;this.src = &#39;/images/gecko-images/join-form/password-cross.png&#39;;"
-                                                        alt="cross"
-                                                    />
-                                                    <img
-                                                        src="https://d15z7dtgvh220z.cloudfront.net/images/gecko-images/join-form/password-checkmark.svg"
-                                                        id="numberTick"
-                                                        onerror="this.onerror = null;this.src = &#39;/images/gecko-images/join-form/password-checkmark.png&#39;;"
-                                                        alt="tick"
-                                                        class="hidden"
-                                                    />
-                                                </div>
-                                                <p id="ctl00_GeckoTwoColPrimary_merchantPnl_JoinForm_ctl02_numberInfo">At least one number</p>
-                                            </div>
-                                            <div class="requirement">
-                                                <div class="image-container">
-                                                    <img
-                                                        src="https://d15z7dtgvh220z.cloudfront.net/images/gecko-images/join-form/password-cross.svg"
-                                                        id="symbolCross"
-                                                        onerror="this.onerror = null;this.src = &#39;/images/gecko-images/join-form/password-cross.png&#39;;"
-                                                        alt="cross"
-                                                    />
-                                                    <img
-                                                        src="https://d15z7dtgvh220z.cloudfront.net/images/gecko-images/join-form/password-checkmark.svg"
-                                                        id="symbolTick"
-                                                        onerror="this.onerror = null;this.src = &#39;/images/gecko-images/join-form/password-checkmark.png&#39;;"
-                                                        alt="tick"
-                                                        class="hidden"
-                                                    />
-                                                </div>
-                                                <p id="ctl00_GeckoTwoColPrimary_merchantPnl_JoinForm_ctl02_symbolInfo">At least one symbol</p>
-                                            </div>
-                                        </div>
-                                        <div id="success" class="requirements-container requirement-success hidden">
-                                            <div class="requirement">
-                                                <div class="image-container">
-                                                    <img
-                                                        src="https://d15z7dtgvh220z.cloudfront.net/images/gecko-images/join-form/password-checkmark.svg"
-                                                        onerror="this.onerror = null;this.src = &#39;/images/gecko-images/join-form/password-checkmark.png&#39;;"
-                                                        alt="tick"
-                                                    />
-                                                </div>
-                                                <p id="ctl00_GeckoTwoColPrimary_merchantPnl_JoinForm_ctl02_successInfo">Password meets requirements</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <input type="hidden" name="ctl00$GeckoTwoColPrimary$merchantPnl$JoinForm$Token" id="ctl00_GeckoTwoColPrimary_merchantPnl_JoinForm_Token" value="f9f99e82-f6a2-4d71-9ab0-3d310d144f21" />
-                                    
-                                    <input
-                                        type="hidden"
-                                        name="ctl00$GeckoTwoColPrimary$merchantPnl$JoinForm$CaptchaHandler$FailedCaptchaResponseField"
-                                        id="ctl00_GeckoTwoColPrimary_merchantPnl_JoinForm_CaptchaHandler_FailedCaptchaResponseField"
-                                    />
-                                    <input type="hidden" name="ctl00$GeckoTwoColPrimary$merchantPnl$JoinForm$CaptchaHandler$CPRField" id="ctl00_GeckoTwoColPrimary_merchantPnl_JoinForm_CaptchaHandler_CPRField" />
-                                    
-                                    <button
-                                        type="submit"
-                                        name="ctl00$GeckoTwoColPrimary$merchantPnl$JoinForm$btnJoin"
-                                        value=""
-                                        onclick='this.disabled = true; addSpinner(this, 0, 0); return false;WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$GeckoTwoColPrimary$merchantPnl$JoinForm$btnJoin", "", true, "", "", false, false))'
-                                        id="btnJoin"
-                                        class="signupbtn g-recaptcha"
-                                    >
-                                        Join Free
-                                    </button>
-                                    <input
-                                        type="submit"
-                                        name="ctl00$GeckoTwoColPrimary$merchantPnl$JoinForm$CaptchaSubmit"
-                                        value="Join"
-                                        onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$GeckoTwoColPrimary$merchantPnl$JoinForm$CaptchaSubmit", "", true, "", "", false, false))'
-                                        id="CaptchaSubmit"
-                                        class="g-recaptcha-click"
-                                        style="display: none"
-                                    />
-                                    <div id="ctl00_GeckoTwoColPrimary_merchantPnl_JoinForm_TermsPanel" class="terms">
-                                        <div id="ctl00_GeckoTwoColPrimary_merchantPnl_JoinForm_StandardTerms">
-                                            <span id="ctl00_GeckoTwoColPrimary_merchantPnl_JoinForm_termsAndConditionsText1">By joining you agree to our </span>
-                                            <a id="ctl00_GeckoTwoColPrimary_merchantPnl_JoinForm_termsLink" href="https://www.topcashback.com/terms">terms & conditions</a>
-                                            <span id="ctl00_GeckoTwoColPrimary_merchantPnl_JoinForm_termsAndConditionsText2"> and </span>
-                                            <a id="ctl00_GeckoTwoColPrimary_merchantPnl_JoinForm_privacyLink" href="https://www.topcashback.com/privacy">privacy policy</a>
-                                            <span id="ctl00_GeckoTwoColPrimary_merchantPnl_JoinForm_termsAndConditionsText3"></span>
-                                        </div>
-                                    </div>
+                                <div id="formContainer" >
+                                  
+                                   
+                                    <button class="signupbtn g-recaptcha" style="    padding: 14px 30px 14px 30px" >Get Cashback Now</button>
+                                   
                                 </div>
                             </form>
                         
                         </div>
                     </div>
-                    <div id="ctl00_GeckoTwoColPrimary_merchantPnl_imagePanel">
-                        <div id="ctl00_GeckoTwoColPrimary_merchantPnl_newMerchantImages" class="merchant-new-images">
-                            <div class="merchant-trust-image">
-                                <img src="{{asset('topCashback')}}/images/gecko-images/members-trustimage.png" id="ctl00_GeckoTwoColPrimary_merchantPnl_imgMember" class="merchant-panel-member" alt="member-image" />
-                                <p><span id="ctl00_GeckoTwoColPrimary_merchantPnl_numMembers">20,000,000</span>members worldwide</p>
-                            </div>
-                            <div class="merchant-trust-image">
-                                <img
-                                    src="{{asset('topCashback')}}/images/gecko-images/trustpilot-trustimage.png"
-                                    id="ctl00_GeckoTwoColPrimary_merchantPnl_imgTrustPilot"
-                                    class="merchant-panel-trustpilot"
-                                    alt="trust-pilot"
-                                />
-                                <p>Our customers love us!</p>
-                            </div>
-                            <div class="merchant-trust-image">
-                                <img src="{{asset('topCashback')}}/images/gecko-images/ebay-trustimage.png" id="ctl00_GeckoTwoColPrimary_merchantPnl_imgEbay" class="merchant-panel-ebay" alt="ebay-image" />
-                                <p>
-                                    Thousands of<br />
-                                    top-named brands
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
                 <table class="gecko-data-table-account-overview gecko-inline-block" itemscope itemtype="http://schema.org/Table">
                     <thead>

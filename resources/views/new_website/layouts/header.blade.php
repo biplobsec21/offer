@@ -162,3 +162,22 @@
         </nav>
     </div>
 </div>
+<div class="row header-category">
+    <div class="col-md-2">
+        <a class="header-category-link">
+            <i class="bi bi-gift icon-category"></i> <span>New</span> </a>
+    </div>
+
+    <div class="col-md-2">
+        <a class="header-category-link"><i class="bi bi-heart icon-category"></i><span>Popular</span></a>
+    </div>
+
+    <div class="col-md-2">
+        <a class="header-category-link"><i class="bi bi-lightning-charge icon-category"></i><span>Hot Deals</span></a>
+    </div>
+
+    <div class="col-md-2">
+        <a class="header-category-link"><i class="bi bi-chat icon-category"></i><span>Help</span></a>
+    </div>
+
+</div>

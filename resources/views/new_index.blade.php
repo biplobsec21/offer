@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="noindex">
   <link rel="stylesheet" href="{{asset('rakuten/vendor/bootstrap/bootstrap.min.css')}}" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
   <meta name="csrf-token" content="{{ csrf_token() }}" />
 
   <!-- Vendor -->
@@ -31,6 +33,10 @@
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   @yield('header_css_js')
   <style>
+    body {
+  font-family: "Poppins", sans-serif !important;
+  background: #fff !important;
+}
     .btn-primary {
       background: #195e73 !important;
       border: #195e73 !important;
@@ -39,14 +45,14 @@
     .site-secondary-title {
       font-weight: bold !important;
       text-align: left !important;
-      color: #d9b389;
+      color: #0c0c0c;
       font-size: 20px;
     }
 
     .text-red {
-      font-size: 16px;
-      font-weight: bold;
-      color: #f50e02;
+      font-size: 14px;
+      font-weight: 600;
+      color: #e80c5b;
     }
 
     .text-gray-bold {
@@ -56,7 +62,7 @@
     }
 
     .text-gray {
-      font-size: 14px;
+      font-size: 12px;
       font-weight: normal;
       color: #737373;
     }
@@ -65,10 +71,10 @@
       display: inline-block;
       border-radius: 50%;
       box-shadow: 0 0 1px #88888882;
-      padding: 1px 2px;
-      background: #f50e02;
+      padding: 2px 3px;
+      background: #e80c5b;
       color: white;
-      font-size: 12px;
+      font-size: 8px;
       vertical-align: middle;
     }
   </style>

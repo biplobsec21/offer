@@ -324,6 +324,49 @@ public function login(Request $request){
             ->with('brand',$brand);
               
         } 
+
+        public function test2()
+        {
+            $category=Category::where('status',1)->where('parent_id',0)->get();
+        $banner=Banner::where('status',1)->get();
+        $brand=Brand::where('status',"ACTIVE")->get();
+            return view('vendor_without_website')
+            ->with('banner',$banner)
+            ->with('category',$category)
+            ->with('brand',$brand);
+              
+        } 
+        public function test3()
+        {
+            $category=Category::where('status',1)->where('parent_id',0)->get();
+        $banner=Banner::where('status',1)->get();
+        $brand=Brand::where('status',"ACTIVE")->get();
+            return view('product_details')
+            ->with('banner',$banner)
+            ->with('category',$category)
+            ->with('brand',$brand);
+              
+        } 
+        public function test4()
+        {
+            $category=Category::where('status',1)->where('parent_id',0)->get();
+            $banner=Banner::where('status',1)->get();
+            $brand=Brand::where('status',"ACTIVE")->get();
+            return view('product_single')
+            ->with('banner',$banner)
+            ->with('category',$category)
+            ->with('brand',$brand);
+        }
+        public function test5()
+        {
+            $category=Category::where('status',1)->where('parent_id',0)->get();
+            $banner=Banner::where('status',1)->get();
+            $brand=Brand::where('status',"ACTIVE")->get();
+            return view('checkout')
+            ->with('banner',$banner)
+            ->with('category',$category)
+            ->with('brand',$brand);
+        }
         
 
 }

@@ -18,6 +18,10 @@ use Maatwebsite\Excel\Row;
 //     return view('welcome');
 // });
       Route::get('test','HomeController@test');
+      Route::get('test2','HomeController@test2');
+      Route::get('test3','HomeController@test3');
+      Route::get('test4','HomeController@test4');
+      Route::get('test5','HomeController@test5');
       
         Route::get('/', 'HomeController@index')->name('toppage');
 //  Route::get('/aboutus', 'SiteController@aboutus')->name('aboutus.list');
@@ -45,8 +49,8 @@ use Maatwebsite\Excel\Row;
         Route::get('/logout', 'HomeController@logout')->name('logout');
         Route::get('/dashboard', 'HomeController@dashboard')->name('dashboard');
         Route::get('/vendorprofile/{name}/{id}','HomeController@vendorprofile')->name('vendorprofile');
-Route::prefix('admin')->group(function () {
-    Route::group(['middleware' => 'checkAdmin'], function () {
+        Route::prefix('admin')->group(function () {
+        Route::group(['middleware' => 'checkAdmin'], function () {
 
             Route::get('/logout/{type}', 'Admin\LoginController@logout')->name('admin.logout');
 
