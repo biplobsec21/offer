@@ -17,8 +17,8 @@ use Maatwebsite\Excel\Row;
 // Route::get('/', function () {
 //     return view('welcome');
 // });
-      Route::get('test','HomeController@test');
-      Route::get('test2','HomeController@test2');
+      Route::get('bata','HomeController@test')->name('bata');
+      Route::get('yellow','HomeController@test2')->name('yellow');
       Route::get('test3','HomeController@test3');
       Route::get('test4','HomeController@test4');
       Route::get('test5','HomeController@test5');

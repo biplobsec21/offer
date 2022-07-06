@@ -55,7 +55,7 @@
                     <div class="item">
                         <div class="slider-box">
                             <div class="box-inner p-0">
-                                <a href="">
+                                <a href="{{route('bata')}}">
                                     <img style="height:96px;border-radius:5px;"
                                         src="{{ asset('/images/bata.png') }}"></a>
                             </div>
@@ -74,7 +74,7 @@
                     <div class="item">
                         <div class="slider-box">
                             <div class="box-inner p-0">
-                                <a href="">
+                                <a href="{{route('yellow')}}">
                                     <img style="height:96px;border-radius:5px;"
                                         src="{{ asset('/images/yellow.png') }}"></a>
                             </div>
@@ -93,7 +93,7 @@
                     <div class="item">
                         <div class="slider-box">
                             <div class="box-inner p-0">
-                                <a href="">
+                                <a href="{{route('bata')}}">
                                     <img style="height:96px;border-radius:5px;"
                                         src="{{ asset('/images/bata.png') }}"></a>
                             </div>
@@ -112,7 +112,7 @@
                     <div class="item">
                         <div class="slider-box">
                             <div class="box-inner p-0">
-                                <a href="">
+                                <a href="{{route('yellow')}}">
                                     <img style="height:96px;border-radius:5px;"
                                         src="{{ asset('/images/yellow.png') }}"></a>
                             </div>
@@ -131,7 +131,7 @@
                     <div class="item">
                         <div class="slider-box">
                             <div class="box-inner p-0">
-                                <a href="">
+                                <a href="{{route('bata')}}">
                                     <img style="height:96px;border-radius:5px;"
                                         src="{{ asset('/images/bata.png') }}"></a>
                             </div>
@@ -150,7 +150,7 @@
                     <div class="item">
                         <div class="slider-box">
                             <div class="box-inner p-0">
-                                <a href="">
+                                <a href="{{route('yellow')}}">
                                     <img style="height:96px;border-radius:5px;"
                                         src="{{ asset('/images/yellow.png') }}"></a>
                             </div>
@@ -169,7 +169,7 @@
                     <div class="item">
                         <div class="slider-box">
                             <div class="box-inner p-0">
-                                <a href="">
+                                <a href="{{route('bata')}}">
                                     <img style="height:96px;border-radius:5px;"
                                         src="{{ asset('/images/bata.png') }}"></a>
                             </div>
@@ -1167,7 +1167,7 @@
                     <div class="item">
                         <div class="slider-box">
                             <div class="box-inner p-0">
-                                <a href="">
+                                <a href="{{route('bata')}}">
                                     <img style="height:96px;border-radius:5px;"
                                         src="{{ asset('/images/bata.png') }}"></a>
                             </div>
@@ -1186,7 +1186,7 @@
                     <div class="item">
                         <div class="slider-box">
                             <div class="box-inner p-0">
-                                <a href="">
+                                <a href="{{route('yellow')}}">
                                     <img style="height:96px;border-radius:5px;"
                                         src="{{ asset('/images/yellow.png') }}"></a>
                             </div>
@@ -1205,7 +1205,7 @@
                     <div class="item">
                         <div class="slider-box">
                             <div class="box-inner p-0">
-                                <a href="">
+                                <a href="{{route('bata')}}">
                                     <img style="height:96px;border-radius:5px;"
                                         src="{{ asset('/images/bata.png') }}"></a>
                             </div>
@@ -1224,7 +1224,7 @@
                     <div class="item">
                         <div class="slider-box">
                             <div class="box-inner p-0">
-                                <a href="">
+                                <a href="{{route('yellow')}}">
                                     <img style="height:96px;border-radius:5px;"
                                         src="{{ asset('/images/yellow.png') }}"></a>
                             </div>
@@ -1243,7 +1243,7 @@
                     <div class="item">
                         <div class="slider-box">
                             <div class="box-inner p-0">
-                                <a href="">
+                                <a href="{{route('bata')}}">
                                     <img style="height:96px;border-radius:5px;"
                                         src="{{ asset('/images/bata.png') }}"></a>
                             </div>
@@ -1262,7 +1262,7 @@
                     <div class="item">
                         <div class="slider-box">
                             <div class="box-inner p-0">
-                                <a href="">
+                                <a href="{{route('yellow')}}">
                                     <img style="height:96px;border-radius:5px;"
                                         src="{{ asset('/images/yellow.png') }}"></a>
                             </div>
@@ -1281,7 +1281,7 @@
                     <div class="item">
                         <div class="slider-box">
                             <div class="box-inner p-0">
-                                <a href="">
+                                <a href="{{route('bata')}}">
                                     <img style="height:96px;border-radius:5px;"
                                         src="{{ asset('/images/bata.png') }}"></a>
                             </div>
