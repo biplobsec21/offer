@@ -160,7 +160,7 @@ fill:#8529cd
 }
 .icon-category{
   padding-right:6px;
-  font-size:14px
+  font-size:18px
 }
 .header-category-link{
  
@@ -175,7 +175,7 @@ fill:#8529cd
     -ms-flex-direction: row;
     flex-direction: row;
     font-family: var(--fonts-subnav);
-    font-size:11px;
+    font-size:16px;
    
     padding: 16px;
     text-align: left;

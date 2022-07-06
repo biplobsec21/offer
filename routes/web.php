@@ -20,8 +20,8 @@ use Maatwebsite\Excel\Row;
       Route::get('bata','HomeController@test')->name('bata');
       Route::get('yellow','HomeController@test2')->name('yellow');
       Route::get('test3','HomeController@test3');
-      Route::get('test4','HomeController@test4');
-      Route::get('test5','HomeController@test5');
+      Route::get('product_details','HomeController@test4');
+      Route::get('checkout_page','HomeController@test5');
       
         Route::get('/', 'HomeController@index')->name('toppage');
 //  Route::get('/aboutus', 'SiteController@aboutus')->name('aboutus.list');

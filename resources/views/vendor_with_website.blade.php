@@ -9,7 +9,7 @@
 @endsection
 @section('content')
 
-<form method="post" action="https://www.topcashback.com/nike/" id="aspnetForm">
+<form method="post" action="https://www.topcashback.com/Bata/" id="aspnetForm">
 				
 	
     <div class="gecko-main">
@@ -19,7 +19,7 @@
                 <div class="cashback-h1-outer-container">
                     <div class="cashback-h1-container jsFontSizing">
                         <h1>
-                            <span data-localizer="ignore">Nike</span>
+                            <span data-localizer="ignore">Bata</span>
                             Cash Back Offers & Discounts
                         </h1>
                     </div>
@@ -27,17 +27,17 @@
                 <div
                     id="ctl00_GeckoTwoColPrimary_merchantPnl_pnlMerchantHeader"
                     class="gecko-merchant-background"
-                    style="background-image:url(../images/suppliers/merchant-header-backgrounds/nikemerchantheaderlarge.jpg),url(../images/suppliers/merchant-header-backgrounds/merchant-blank.jpg);"
+                    style="background-image:url({{asset('images/bata_banner.jpg')}});"
                 >
                     <div class="gecko-logo-main-full-width">
-                        <img id="ctl00_GeckoTwoColPrimary_merchantPnl_imgMerchantLogo" src="{{asset('topCashback')}}/images/suppliers/large-logos/nike_lg.png" alt="Nike Logo" />
+                        <img id="ctl00_GeckoTwoColPrimary_merchantPnl_imgMerchantLogo" src="{{asset('images/bata.png')}}" alt="Bata Logo" />
                     </div>
                 </div>
                 <div id="ctl00_GeckoTwoColPrimary_merchantPnl_pnlNewMerchant" class="panel-merchant-wrap">
                     <div id="ctl00_GeckoTwoColPrimary_merchantPnl_newMerchantPanel" class="gecko-merchant-panel">
                         <div id="ctl00_GeckoTwoColPrimary_merchantPnl_pnlNewMerchantPanel" class="merchant-panel">
                             <div class="merchant-signup-text">
-                                <h2 id="ctl00_GeckoTwoColPrimary_merchantPnl_lblNewMerchantHeader" class="merchant-panel-description">Get up to 8% of your purchase back when you shop with Nike</h2>
+                                <h2 id="ctl00_GeckoTwoColPrimary_merchantPnl_lblNewMerchantHeader" class="merchant-panel-description">Get up to 8% of your purchase back when you shop with Bata</h2>
                             </div>
                            
                         </div>
@@ -63,7 +63,7 @@
                                 <div itemprop="about">
                                     <h2 class="merchant-offers-table">
                                         <span data-localizer="ignore">
-                                            <span id="ctl00_GeckoTwoColPrimary_merchantPnl_rMerchantOffers_lblMerchantName" class="gecko-merchant-heading">Nike</span>
+                                            <span id="ctl00_GeckoTwoColPrimary_merchantPnl_rMerchantOffers_lblMerchantName" class="gecko-merchant-heading">Bata</span>
                                         </span>
                                         <span id="ctl00_GeckoTwoColPrimary_merchantPnl_rMerchantOffers_lblOfferHeader"> Offers</span>
                                     </h2>
@@ -102,13 +102,13 @@
             </div>
             <div>
                 <div id="ctl00_GeckoTwoColPrimary_merchantCodePnl_ctl00_pnlVoucherContainer" class="gecko-voucher-content-container">
-                    <div class="gecko-deeplink-box-container featured gecko-single-container deeplink-deal-box" onclick="logClick();window.open('https://www.topcashback.com/EarnCashback.aspx?mpurl=nike&amp;mpID=1011816');">
+                    <div class="gecko-deeplink-box-container featured gecko-single-container deeplink-deal-box" onclick="logClick();window.open('https://www.topcashback.com/EarnCashback.aspx?mpurl=Bata&amp;mpID=1011816');">
                         <div class="gecko-deeplink-main-content">
                             <div class="gecko-merchant-deeplink-logo">
-                                <img id="ctl00_GeckoTwoColPrimary_merchantCodePnl_ctl00_imgMerchantLogo" class="gecko-deeplink-logo" src="{{asset('topCashback')}}/images/suppliers/square-logos/nike_sq.png" />
+                                <img id="ctl00_GeckoTwoColPrimary_merchantCodePnl_ctl00_imgMerchantLogo" class="gecko-deeplink-logo" src="{{asset('topCashback')}}/images/suppliers/square-logos/Bata_sq.png" />
                             </div>
                             <div class="gecko-merchant-deeplink-content">
-                                <span id="ctl00_GeckoTwoColPrimary_merchantCodePnl_ctl00_lblCodeTitle" class="gecko-deeplink-title">Shop New Women's Sale Styles at Nike.com</span>
+                                <span id="ctl00_GeckoTwoColPrimary_merchantCodePnl_ctl00_lblCodeTitle" class="gecko-deeplink-title">Shop New Women's Sale Styles at Bata.com</span>
                                 <span data-localizer="ignore"><span id="ctl00_GeckoTwoColPrimary_merchantCodePnl_ctl00_pnlCode" class="gecko-featured-voucher gecko-deeplink-code-container">N/A</span></span>
                                 <span id="ctl00_GeckoTwoColPrimary_merchantCodePnl_ctl00_lblCashback" class="gecko-deeplink-title gecko-deeplink-rate-padding">8% Cash Back</span>
                             </div>
@@ -116,10 +116,10 @@
                     </div>
                 </div>
                 <div id="ctl00_GeckoTwoColPrimary_merchantCodePnl_ctl01_pnlVoucherContainer" class="gecko-voucher-content-container">
-                    <div class="gecko-deeplink-box-container featured gecko-single-container deeplink-deal-box" onclick="logClick();window.open('https://www.topcashback.com/EarnCashback.aspx?mpurl=nike&amp;mpID=1011816');">
+                    <div class="gecko-deeplink-box-container featured gecko-single-container deeplink-deal-box" onclick="logClick();window.open('https://www.topcashback.com/EarnCashback.aspx?mpurl=Bata&amp;mpID=1011816');">
                         <div class="gecko-deeplink-main-content">
                             <div class="gecko-merchant-deeplink-logo">
-                                <img id="ctl00_GeckoTwoColPrimary_merchantCodePnl_ctl01_imgMerchantLogo" class="gecko-deeplink-logo" src="{{asset('topCashback')}}/images/suppliers/square-logos/nike_sq.png" />
+                                <img id="ctl00_GeckoTwoColPrimary_merchantCodePnl_ctl01_imgMerchantLogo" class="gecko-deeplink-logo" src="{{asset('topCashback')}}/images/suppliers/square-logos/Bata_sq.png" />
                             </div>
                             <div class="gecko-merchant-deeplink-content">
                                 <span id="ctl00_GeckoTwoColPrimary_merchantCodePnl_ctl01_lblCodeTitle" class="gecko-deeplink-title">Save up to 40% on Select Boy's Styles!</span>
@@ -130,13 +130,13 @@
                     </div>
                 </div>
                 <div id="ctl00_GeckoTwoColPrimary_merchantCodePnl_ctl02_pnlVoucherContainer" class="gecko-voucher-content-container">
-                    <div class="gecko-deeplink-box-container featured gecko-single-container deeplink-deal-box" onclick="logClick();window.open('https://www.topcashback.com/EarnCashback.aspx?mpurl=nike&amp;mpID=1011816');">
+                    <div class="gecko-deeplink-box-container featured gecko-single-container deeplink-deal-box" onclick="logClick();window.open('https://www.topcashback.com/EarnCashback.aspx?mpurl=Bata&amp;mpID=1011816');">
                         <div class="gecko-deeplink-main-content">
                             <div class="gecko-merchant-deeplink-logo">
-                                <img id="ctl00_GeckoTwoColPrimary_merchantCodePnl_ctl02_imgMerchantLogo" class="gecko-deeplink-logo" src="{{asset('topCashback')}}/images/suppliers/square-logos/nike_sq.png" />
+                                <img id="ctl00_GeckoTwoColPrimary_merchantCodePnl_ctl02_imgMerchantLogo" class="gecko-deeplink-logo" src="{{asset('topCashback')}}/images/suppliers/square-logos/Bata_sq.png" />
                             </div>
                             <div class="gecko-merchant-deeplink-content">
-                                <span id="ctl00_GeckoTwoColPrimary_merchantCodePnl_ctl02_lblCodeTitle" class="gecko-deeplink-title">Shop Spring Essentials at Nike.com</span>
+                                <span id="ctl00_GeckoTwoColPrimary_merchantCodePnl_ctl02_lblCodeTitle" class="gecko-deeplink-title">Shop Spring Essentials at Bata.com</span>
                                 <span data-localizer="ignore"><span id="ctl00_GeckoTwoColPrimary_merchantCodePnl_ctl02_pnlCode" class="gecko-featured-voucher gecko-deeplink-code-container">N/A</span></span>
                                 <span id="ctl00_GeckoTwoColPrimary_merchantCodePnl_ctl02_lblCashback" class="gecko-deeplink-title gecko-deeplink-rate-padding">8% Cash Back</span>
                             </div>
@@ -144,10 +144,10 @@
                     </div>
                 </div>
                 <div id="ctl00_GeckoTwoColPrimary_merchantCodePnl_ctl03_pnlVoucherContainer" class="gecko-voucher-content-container">
-                    <div class="gecko-deeplink-box-container featured gecko-single-container deeplink-deal-box" onclick="logClick();window.open('https://www.topcashback.com/EarnCashback.aspx?mpurl=nike&amp;mpID=1011816');">
+                    <div class="gecko-deeplink-box-container featured gecko-single-container deeplink-deal-box" onclick="logClick();window.open('https://www.topcashback.com/EarnCashback.aspx?mpurl=Bata&amp;mpID=1011816');">
                         <div class="gecko-deeplink-main-content">
                             <div class="gecko-merchant-deeplink-logo">
-                                <img id="ctl00_GeckoTwoColPrimary_merchantCodePnl_ctl03_imgMerchantLogo" class="gecko-deeplink-logo" src="{{asset('topCashback')}}/images/suppliers/square-logos/nike_sq.png" />
+                                <img id="ctl00_GeckoTwoColPrimary_merchantCodePnl_ctl03_imgMerchantLogo" class="gecko-deeplink-logo" src="{{asset('topCashback')}}/images/suppliers/square-logos/Bata_sq.png" />
                             </div>
                             <div class="gecko-merchant-deeplink-content">
                                 <span id="ctl00_GeckoTwoColPrimary_merchantCodePnl_ctl03_lblCodeTitle" class="gecko-deeplink-title">Free Shipping with $150 order.</span>
@@ -157,7 +157,7 @@
                         </div>
                     </div>
                 </div>
-                <a id="ctl00_GeckoTwoColPrimary_merchantCodePnl_bacsPopup" class="bacs-popup" href="index8119.html?BACS=true&amp;mpurl=nike" target="_blank"></a>
+                <a id="ctl00_GeckoTwoColPrimary_merchantCodePnl_bacsPopup" class="bacs-popup" href="index8119.html?BACS=true&amp;mpurl=Bata" target="_blank"></a>
                 <a class="gecko-deeplink-dt-returning-trigger" onclick="logClick()"></a>
                 <a class="returning-box"></a>
             </div>
@@ -178,14 +178,14 @@
                         <div class="gecko-add-info gecko-mt05 gecko-add-info-not-hide">
                             <ul class="gecko-list-dot override">
                                 <li>
-                                    Cash Back is not available on Hurley Wetsuits, Air Jordan Retros, HyperAdapt, Adapt BB, or purchases made on employee website. Cash Back not available on purchases made through the Nike SNKRS app.
+                                    Cash Back is not available on Hurley Wetsuits, Air Jordan Retros, HyperAdapt, Adapt BB, or purchases made on employee website. Cash Back not available on purchases made through the Bata SNKRS app.
                                 </li>
-                                <li>Orders deemed by Nike to be used for reselling purposes.</li>
+                                <li>Orders deemed by Bata to be used for reselling purposes.</li>
                                 <li>The purchase or redemption of gift cards.</li>
                                 <li>Student, Military or Birthday coupon codes will not be eligible for cash back.</li>
                                 <li>Combining promotions from another site and/or using a coupon code not posted and approved by TopCashback</li>
                                 <li>Returning, exchanging or cancelling part of your order.</li>
-                                <li>Purchases made on other sites than Nike's US site</li>
+                                <li>Purchases made on other sites than Bata's US site</li>
                             </ul>
                         </div>
                     </li>
@@ -228,7 +228,7 @@
                     Please note the terms & conditions above are in addition to our general <a class="merchant-terms-link" href="https://www.topcashback.com/terms">terms & conditions</a>
                 </div>
             </div>
-            <input id="hMerchantName" type="hidden" name="country" value="Nike" />
+            <input id="hMerchantName" type="hidden" name="country" value="Bata" />
         </div>
         <div class="gecko-secondary">
             <div class="gecko-single-container">
@@ -277,7 +277,7 @@
                             name="ctl00$GeckoTwoColSecondary$DealBoxControl$ctl00$imgDealBox"
                             id="ctl00_GeckoTwoColSecondary_DealBoxControl_ctl00_imgDealBox"
                             class="dealbox-image"
-                            src="{{asset('topCashback')}}/images/banners/nikeofferstile.png"
+                            src="{{asset('topCashback')}}/images/banners/Bataofferstile.png"
                             onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$GeckoTwoColSecondary$DealBoxControl$ctl00$imgDealBox", "", true, "", "", false, false))'
                         />
                     </div>
@@ -297,15 +297,15 @@
                     <div class="gecko-single-container">
                         <div class="merchant-sidebar-title">
                             <p class="gecko-secondary-title">
-                                <span id="ctl00_GeckoTwoColSecondary_merchantInfo_lblAboutTitle">About Nike</span>
+                                <span id="ctl00_GeckoTwoColSecondary_merchantInfo_lblAboutTitle">About Bata</span>
                             </p>
                         </div>
                         <div class="merchant-sidebar-description">
                             <div id="ctl00_GeckoTwoColSecondary_merchantInfo_pnlReadmoreWrapper" class="readmore-merchant-sidebar readmore-jqueryv3-fix">
                                 <span id="ctl00_GeckoTwoColSecondary_merchantInfo_lblMerchantDescription">
                                     <p>
-                                        Nike.com is the ultimate online source for Nike shoes, clothing and gear. Shop Nike online for new releases and collections featuring the latest styles and Nike innovations. And check out
-                                        NIKEiD, where you can customize one-of-a-kind shoes and clothing with your favorite colors, materials and performance options.
+                                        Bata.com is the ultimate online source for Bata shoes. Shop Bata online for new releases and collections featuring the latest styles and Bata innovations. And check out
+                                        BataiD, where you can customize one-of-a-kind shoes and clothing with your favorite colors, materials and performance options.
                                     </p>
                                 </span>
                             </div>

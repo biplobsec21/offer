@@ -9,7 +9,7 @@
 @endsection
 @section('content')
 
-<form method="post" action="https://www.topcashback.com/nike/" id="aspnetForm">
+<form method="post" action="https://www.topcashback.com/Yellow/" id="aspnetForm">
 				
 	
     <div class="gecko-main" style="width: 1250px">
@@ -19,7 +19,7 @@
                 <div class="cashback-h1-outer-container">
                     <div class="cashback-h1-container jsFontSizing">
                         <h1>
-                            <span data-localizer="ignore">Nike</span>
+                            <span data-localizer="ignore">Yellow</span>
                             Cash Back Offers & Discounts
                         </h1>
                     </div>
@@ -27,17 +27,17 @@
                 <div
                     id="ctl00_GeckoTwoColPrimary_merchantPnl_pnlMerchantHeader"
                     class="gecko-merchant-background"
-                    style="background-image:url(../images/suppliers/merchant-header-backgrounds/nikemerchantheaderlarge.jpg),url(../images/suppliers/merchant-header-backgrounds/merchant-blank.jpg);"
+                    style="background-image:url({{asset('images/yellow_banner.webp')}});background-size:contain"
                 >
                     <div class="gecko-logo-main-full-width">
-                        <img id="ctl00_GeckoTwoColPrimary_merchantPnl_imgMerchantLogo" src="{{asset('topCashback')}}/images/suppliers/large-logos/nike_lg.png" alt="Nike Logo" />
+                        <img id="ctl00_GeckoTwoColPrimary_merchantPnl_imgMerchantLogo" src="{{asset('images/yellow.png')}}" alt="Yellow Logo" />
                     </div>
                 </div>
                 <div id="ctl00_GeckoTwoColPrimary_merchantPnl_pnlNewMerchant" class="panel-merchant-wrap">
                     <div id="ctl00_GeckoTwoColPrimary_merchantPnl_newMerchantPanel" class="gecko-merchant-panel">
                         <div id="ctl00_GeckoTwoColPrimary_merchantPnl_pnlNewMerchantPanel" class="merchant-panel">
                             <div class="merchant-signup-text">
-                                <h2 id="ctl00_GeckoTwoColPrimary_merchantPnl_lblNewMerchantHeader" class="merchant-panel-description">Get up to 8% of your purchase back when you shop with Nike</h2>
+                                <h2 id="ctl00_GeckoTwoColPrimary_merchantPnl_lblNewMerchantHeader" class="merchant-panel-description">Get up to 8% of your purchase back when you shop with Yellow</h2>
                             </div>
                            
                         </div>
@@ -387,7 +387,7 @@
             
 
          
-            <input id="hMerchantName" type="hidden" name="country" value="Nike" />
+            <input id="hMerchantName" type="hidden" name="country" value="Yellow" />
         </div>
         
         <div class="clearfix"></div>
