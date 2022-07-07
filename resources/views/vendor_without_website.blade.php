@@ -2,10 +2,10 @@
 @section('header_css_js')
         <link href="https://fonts.googleapis.com/css?family=Sanchez:400italic,400|Open+Sans:300,400,600,700italic,300italic,400italic,400,700" rel="preconnect" />
 		<link href="https://fonts.googleapis.com/css?family=Sanchez:400italic,400|Open+Sans:300,400,600,700italic,300italic,400italic,400,700" rel="stylesheet" as="font" type="text/css" />
-		<link rel="stylesheet" href="{{asset('topcashback/bundles/static/css/base-3c7ce6f08d.css')}}" type="text/css" />
-		<link rel="stylesheet" href="{{asset('topcashback/bundles/static/css/header-ea25c623bc.css')}}" type="text/css" />
-		<link rel="stylesheet" href="{{asset('topcashback/css/gecko-css/level-0/fancybox/fancyboxoverridesnap-35cc54b199.css')}}" type="text/css" />
-		<link rel="stylesheet" href="{{asset('topcashback/bundles/static/css/v2/merchant-8bebe5ea45.css')}}" type="text/css" />
+		<link rel="stylesheet" href="{{asset('topCashBack/bundles/static/css/base-3c7ce6f08d.css')}}" type="text/css"  />
+		<link rel="stylesheet" href="{{asset('topCashBack/bundles/static/css/header-ea25c623bc.css')}}" type="text/css" />
+		<link rel="stylesheet" href="{{asset('topCashBack/css/gecko-css/level-0/fancybox/fancyboxoverridesnap-35cc54b199.css')}}" type="text/css" />
+		<link rel="stylesheet" href="{{asset('topCashBack/bundles/static/css/v2/merchant-8bebe5ea45.css')}}" type="text/css" />
 @endsection
 @section('content')
 
@@ -42,8 +42,8 @@
                            
                         </div>
                         <div id="ctl00_GeckoTwoColPrimary_merchantPnl_tempSignUp" class="join-form">
-                            <link rel="stylesheet" href="{{asset('topcashback')}}/bundles/static/css/join-form-4173c64af7.css" type="text/css" />
-                            <form action="https://www.topcashback.com/action_page.php">
+                            <link rel="stylesheet" href="{{asset('topCashBack')}}/bundles/static/css/join-form-4173c64af7.css" type="text/css" />
+                            <form action="https://www.topCashBack.com/action_page.php">
                                 <div id="formContainer" >
                                   
                                    
@@ -394,7 +394,7 @@
         <div class="gecko-primary-sub"></div>
     </div>
     <div class="clearfix"></div>
-    <link rel="stylesheet" href="{{asset('topcashback')}}/bundles/static/css/footer-384d409715.css" type="text/css" />
+    <link rel="stylesheet" href="{{asset('topCashBack')}}/bundles/static/css/footer-384d409715.css" type="text/css" />
     <div id="ctl00_ctl14_DynamicSection_DynamicPanel" class="dynamic-section"></div>
     <!-- <div class="link-section">
         <div class="footer-links-column-wrapper">
@@ -403,9 +403,9 @@
                     <span id="ctl00_ctl14_LinkSection_HereToHelpSection_lblHeader">Here to help</span>
                 </div>
                 <div class="link-body">
-                    <a id="ctl00_ctl14_LinkSection_HereToHelpSection_hypGettingStarted" class="link-item" href="https://www.topcashback.com/gettingstarted">Getting Started</a>
-                    <a id="ctl00_ctl14_LinkSection_HereToHelpSection_hypCustomerService" class="link-item" href="https://www.topcashback.com/account/enquiries/">Customer Service</a>
-                    <a id="ctl00_ctl14_LinkSection_HereToHelpSection_hypFAQs" class="link-item" href="https://www.topcashback.com/help/">FAQs</a>
+                    <a id="ctl00_ctl14_LinkSection_HereToHelpSection_hypGettingStarted" class="link-item" href="https://www.topCashBack.com/gettingstarted">Getting Started</a>
+                    <a id="ctl00_ctl14_LinkSection_HereToHelpSection_hypCustomerService" class="link-item" href="https://www.topCashBack.com/account/enquiries/">Customer Service</a>
+                    <a id="ctl00_ctl14_LinkSection_HereToHelpSection_hypFAQs" class="link-item" href="https://www.topCashBack.com/help/">FAQs</a>
                 </div>
             </div>
             <div class="footer-links-panel">
@@ -413,14 +413,14 @@
                     <span id="ctl00_ctl14_LinkSection_OtherWaysToSaveSection_lblHeader">Other ways to save</span>
                 </div>
                 <div class="link-body">
-                    <a id="ctl00_ctl14_LinkSection_OtherWaysToSaveSection_BlogLink" class="link-item" href="https://www.topcashback.com/blog/">Blog</a>
-                    <a id="ctl00_ctl14_LinkSection_OtherWaysToSaveSection_BrowserExtensionLink" class="link-item" href="https://www.topcashback.com/browser-extension">Browser Extension</a>
-                    <a id="ctl00_ctl14_LinkSection_OtherWaysToSaveSection_MobileAppLink" class="link-item" href="https://www.topcashback.com/app">Mobile App</a>
-                    <a id="ctl00_ctl14_LinkSection_OtherWaysToSaveSection_TopGiftcardsLink" class="link-item" href="https://www.topcashback.com/top-gift-cards/">Gift Cards</a>
-                    <a id="ctl00_ctl14_LinkSection_OtherWaysToSaveSection_TrendingNowLink" class="link-item" href="https://www.topcashback.com/trending/">Trending Now</a>
-                    <a id="ctl00_ctl14_LinkSection_OtherWaysToSaveSection_BlackFridayDealsLink" class="link-item" href="https://www.topcashback.com/dyn/black-friday-deals">Black Friday Deals</a>
-                    <a id="ctl00_ctl14_LinkSection_OtherWaysToSaveSection_CyberMondayDealsLink" class="link-item" href="https://www.topcashback.com/dyn/cyber-monday-deals">Cyber Monday Deals</a>
-                    <a id="ctl00_ctl14_LinkSection_OtherWaysToSaveSection_GreenMondayDealsLink" class="link-item" href="https://www.topcashback.com/dyn/green-monday-deals">Green Monday Deals</a>
+                    <a id="ctl00_ctl14_LinkSection_OtherWaysToSaveSection_BlogLink" class="link-item" href="https://www.topCashBack.com/blog/">Blog</a>
+                    <a id="ctl00_ctl14_LinkSection_OtherWaysToSaveSection_BrowserExtensionLink" class="link-item" href="https://www.topCashBack.com/browser-extension">Browser Extension</a>
+                    <a id="ctl00_ctl14_LinkSection_OtherWaysToSaveSection_MobileAppLink" class="link-item" href="https://www.topCashBack.com/app">Mobile App</a>
+                    <a id="ctl00_ctl14_LinkSection_OtherWaysToSaveSection_TopGiftcardsLink" class="link-item" href="https://www.topCashBack.com/top-gift-cards/">Gift Cards</a>
+                    <a id="ctl00_ctl14_LinkSection_OtherWaysToSaveSection_TrendingNowLink" class="link-item" href="https://www.topCashBack.com/trending/">Trending Now</a>
+                    <a id="ctl00_ctl14_LinkSection_OtherWaysToSaveSection_BlackFridayDealsLink" class="link-item" href="https://www.topCashBack.com/dyn/black-friday-deals">Black Friday Deals</a>
+                    <a id="ctl00_ctl14_LinkSection_OtherWaysToSaveSection_CyberMondayDealsLink" class="link-item" href="https://www.topCashBack.com/dyn/cyber-monday-deals">Cyber Monday Deals</a>
+                    <a id="ctl00_ctl14_LinkSection_OtherWaysToSaveSection_GreenMondayDealsLink" class="link-item" href="https://www.topCashBack.com/dyn/green-monday-deals">Green Monday Deals</a>
                 </div>
             </div>
             <div class="footer-links-panel">
@@ -428,8 +428,8 @@
                     <span id="ctl00_ctl14_LinkSection_GetToKnowUsSection_lblHeader">Get to know us</span>
                 </div>
                 <div class="link-body">
-                    <a id="ctl00_ctl14_LinkSection_GetToKnowUsSection_hypAbouttopcashback" class="link-item" href="https://www.topcashback.com/about" target="_blank">About topcashback</a>
-                    <a id="ctl00_ctl14_LinkSection_GetToKnowUsSection_hypEbatesVsOurselves" class="link-item" href="https://www.topcashback.com/ebates">Rakuten Vs Ourselves</a>
+                    <a id="ctl00_ctl14_LinkSection_GetToKnowUsSection_hypAbouttopCashBack" class="link-item" href="https://www.topCashBack.com/about" target="_blank">About topCashBack</a>
+                    <a id="ctl00_ctl14_LinkSection_GetToKnowUsSection_hypEbatesVsOurselves" class="link-item" href="https://www.topCashBack.com/ebates">Rakuten Vs Ourselves</a>
                 </div>
             </div>
             <div class="footer-links-panel">
@@ -437,10 +437,10 @@
                     <span id="ctl00_ctl14_LinkSection_GetInvolvedSection_lblHeader">Get involved</span>
                 </div>
                 <div class="link-body">
-                    <a id="ctl00_ctl14_LinkSection_GetInvolvedSection_hypAffiliateProgram" class="link-item" href="https://www.topcashback.com/dyn/affiliate-program">Affiliate Program</a>
-                    <a id="ctl00_ctl14_LinkSection_GetInvolvedSection_hypPressOffice" class="link-item" href="https://www.topcashback.com/press-center">Press Office</a>
-                    <a id="ctl00_ctl14_LinkSection_GetInvolvedSection_hypInTheNews" class="link-item" href="https://www.topcashback.com/blog/cat/in-the-news">In the News</a>
-                    <a id="ctl00_ctl14_LinkSection_GetInvolvedSection_hypVulnerabilityDisclosure" class="link-item" href="https://www.topcashback.com/dyn/vulnerability-disclosure-policy">Vulnerability Disclosure</a>
+                    <a id="ctl00_ctl14_LinkSection_GetInvolvedSection_hypAffiliateProgram" class="link-item" href="https://www.topCashBack.com/dyn/affiliate-program">Affiliate Program</a>
+                    <a id="ctl00_ctl14_LinkSection_GetInvolvedSection_hypPressOffice" class="link-item" href="https://www.topCashBack.com/press-center">Press Office</a>
+                    <a id="ctl00_ctl14_LinkSection_GetInvolvedSection_hypInTheNews" class="link-item" href="https://www.topCashBack.com/blog/cat/in-the-news">In the News</a>
+                    <a id="ctl00_ctl14_LinkSection_GetInvolvedSection_hypVulnerabilityDisclosure" class="link-item" href="https://www.topCashBack.com/dyn/vulnerability-disclosure-policy">Vulnerability Disclosure</a>
                 </div>
             </div>
             <div class="footer-links-panel footer-links-panel-last">
@@ -448,8 +448,8 @@
                     <span id="ctl00_ctl14_LinkSection_LegalStuffSection_lblHeader">Legal stuff</span>
                 </div>
                 <div class="link-body">
-                    <a id="ctl00_ctl14_LinkSection_LegalStuffSection_hypPrivacy" class="link-item" href="https://www.topcashback.com/privacy">Privacy Policy</a>
-                    <a id="ctl00_ctl14_LinkSection_LegalStuffSection_hypTermsAndConditions" class="link-item" href="https://www.topcashback.com/terms">Terms & Conditions</a>
+                    <a id="ctl00_ctl14_LinkSection_LegalStuffSection_hypPrivacy" class="link-item" href="https://www.topCashBack.com/privacy">Privacy Policy</a>
+                    <a id="ctl00_ctl14_LinkSection_LegalStuffSection_hypTermsAndConditions" class="link-item" href="https://www.topCashBack.com/terms">Terms & Conditions</a>
                 </div>
             </div>
         </div>
@@ -461,21 +461,21 @@
             </div>
             <div class="legal-social-panel global-sites">
                 <span id="ctl00_ctl14_LegalSocialSection_lblGlobalSites">Global sites</span>
-                <a id="ctl00_ctl14_LegalSocialSection_hypUk" title="UK" class="global-site-link" rel="noopener" href="https://www.topcashback.co.uk/" target="_blank">UK</a>
-                <a id="ctl00_ctl14_LegalSocialSection_hypChina" title="China" class="global-site-link" rel="noopener" href="https://www.topcashback.cn/" target="_blank">CN</a>
-                <a id="ctl00_ctl14_LegalSocialSection_hypJapan" title="Japan" class="global-site-link" rel="noopener" href="https://www.topcashback.jp/" target="_blank">JP</a>
-                <a id="ctl00_ctl14_LegalSocialSection_hypGermany" title="Germany" class="global-site-link" rel="noopener" href="https://www.topcashback.de/" target="_blank">DE</a>
+                <a id="ctl00_ctl14_LegalSocialSection_hypUk" title="UK" class="global-site-link" rel="noopener" href="https://www.topCashBack.co.uk/" target="_blank">UK</a>
+                <a id="ctl00_ctl14_LegalSocialSection_hypChina" title="China" class="global-site-link" rel="noopener" href="https://www.topCashBack.cn/" target="_blank">CN</a>
+                <a id="ctl00_ctl14_LegalSocialSection_hypJapan" title="Japan" class="global-site-link" rel="noopener" href="https://www.topCashBack.jp/" target="_blank">JP</a>
+                <a id="ctl00_ctl14_LegalSocialSection_hypGermany" title="Germany" class="global-site-link" rel="noopener" href="https://www.topCashBack.de/" target="_blank">DE</a>
             </div>
             <div id="LocalizerWidget" class="legal-social-panel localizer-panel footer-widget-panel" style="visibility:hidden">
                 <span>Site language</span>
                 <div id="tbLanguageWidget" class="footer-widget"></div>
             </div>
             <div class="legal-social-panel social-links">
-                <a id="ctl00_ctl14_LegalSocialSection_FacebookLink" title="Facebook" class="footer-social-icon footer-icon-facebook" rel="noopener" href="https://www.facebook.com/topcashbackUSA" target="_blank"></a>
-                <a id="ctl00_ctl14_LegalSocialSection_TwitterLink" title="Twitter" class="footer-social-icon footer-icon-twitter" rel="noopener" href="https://twitter.com/topcashbackusa" target="_blank"></a>
-                <a id="ctl00_ctl14_LegalSocialSection_LinkedinLink" title="LinkedIn" class="footer-social-icon footer-icon-linkedin" rel="noopener" href="https://www.linkedin.com/company/topcashback" target="_blank"></a>
-                <a id="ctl00_ctl14_LegalSocialSection_InstagramLink" title="Instagram" class="footer-social-icon footer-icon-instagram" rel="noopener" href="https://www.instagram.com/topcashbackusa" target="_blank"></a>
-                <a id="ctl00_ctl14_LegalSocialSection_PinterestLink" title="Pinterest" class="footer-social-icon footer-icon-pinterest" rel="noopener" href="https://www.pinterest.com/topcashbackUSA/" target="_blank"></a>
+                <a id="ctl00_ctl14_LegalSocialSection_FacebookLink" title="Facebook" class="footer-social-icon footer-icon-facebook" rel="noopener" href="https://www.facebook.com/topCashBackUSA" target="_blank"></a>
+                <a id="ctl00_ctl14_LegalSocialSection_TwitterLink" title="Twitter" class="footer-social-icon footer-icon-twitter" rel="noopener" href="https://twitter.com/topCashBackusa" target="_blank"></a>
+                <a id="ctl00_ctl14_LegalSocialSection_LinkedinLink" title="LinkedIn" class="footer-social-icon footer-icon-linkedin" rel="noopener" href="https://www.linkedin.com/company/topCashBack" target="_blank"></a>
+                <a id="ctl00_ctl14_LegalSocialSection_InstagramLink" title="Instagram" class="footer-social-icon footer-icon-instagram" rel="noopener" href="https://www.instagram.com/topCashBackusa" target="_blank"></a>
+                <a id="ctl00_ctl14_LegalSocialSection_PinterestLink" title="Pinterest" class="footer-social-icon footer-icon-pinterest" rel="noopener" href="https://www.pinterest.com/topCashBackUSA/" target="_blank"></a>
             </div>
         </div>
     </div> -->
