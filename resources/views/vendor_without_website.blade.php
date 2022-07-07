@@ -2,14 +2,14 @@
 @section('header_css_js')
         <link href="https://fonts.googleapis.com/css?family=Sanchez:400italic,400|Open+Sans:300,400,600,700italic,300italic,400italic,400,700" rel="preconnect" />
 		<link href="https://fonts.googleapis.com/css?family=Sanchez:400italic,400|Open+Sans:300,400,600,700italic,300italic,400italic,400,700" rel="stylesheet" as="font" type="text/css" />
-		<link rel="stylesheet" href="{{asset('topcashback')}}/bundles/static/css/base-3c7ce6f08d.css" type="text/css" />
-		<link rel="stylesheet" href="{{asset('topcashback')}}/bundles/static/css/header-ea25c623bc.css" type="text/css" />
-		<link rel="stylesheet" href="{{asset('topcashback')}}/css/gecko-css/level-0/fancybox/fancyboxoverridesnap-35cc54b199.css" type="text/css" />
-		<link rel="stylesheet" href="{{asset('topcashback')}}/bundles/static/css/v2/merchant-8bebe5ea45.css" type="text/css" />
+		<link rel="stylesheet" href="{{asset('topcashback/bundles/static/css/base-3c7ce6f08d.css')}}" type="text/css" />
+		<link rel="stylesheet" href="{{asset('topcashback/bundles/static/css/header-ea25c623bc.css')}}" type="text/css" />
+		<link rel="stylesheet" href="{{asset('topcashback/css/gecko-css/level-0/fancybox/fancyboxoverridesnap-35cc54b199.css')}}" type="text/css" />
+		<link rel="stylesheet" href="{{asset('topcashback/bundles/static/css/v2/merchant-8bebe5ea45.css')}}" type="text/css" />
 @endsection
 @section('content')
 
-<form method="post" action="https://www.topcashback.com/Yellow/" id="aspnetForm">
+<form method="post" >
 				
 	
     <div class="gecko-main" style="width: 1250px">
