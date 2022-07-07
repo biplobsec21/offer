@@ -2,10 +2,10 @@
 @section('header_css_js')
         <link href="https://fonts.googleapis.com/css?family=Sanchez:400italic,400|Open+Sans:300,400,600,700italic,300italic,400italic,400,700" rel="preconnect" />
 		<link href="https://fonts.googleapis.com/css?family=Sanchez:400italic,400|Open+Sans:300,400,600,700italic,300italic,400italic,400,700" rel="stylesheet" as="font" type="text/css" />
-		<link rel="stylesheet" href="{{asset('topCashback')}}/bundles/static/css/base-3c7ce6f08d.css" type="text/css" />
-		<link rel="stylesheet" href="{{asset('topCashback')}}/bundles/static/css/header-ea25c623bc.css" type="text/css" />
-		<link rel="stylesheet" href="{{asset('topCashback')}}/css/gecko-css/level-0/fancybox/fancyboxoverridesnap-35cc54b199.css" type="text/css" />
-		<link rel="stylesheet" href="{{asset('topCashback')}}/bundles/static/css/v2/merchant-8bebe5ea45.css" type="text/css" />
+		<link rel="stylesheet" href="{{asset('topcashback')}}/bundles/static/css/base-3c7ce6f08d.css" type="text/css" />
+		<link rel="stylesheet" href="{{asset('topcashback')}}/bundles/static/css/header-ea25c623bc.css" type="text/css" />
+		<link rel="stylesheet" href="{{asset('topcashback')}}/css/gecko-css/level-0/fancybox/fancyboxoverridesnap-35cc54b199.css" type="text/css" />
+		<link rel="stylesheet" href="{{asset('topcashback')}}/bundles/static/css/v2/merchant-8bebe5ea45.css" type="text/css" />
 @endsection
 @section('content')
 
@@ -42,7 +42,7 @@
                            
                         </div>
                         <div id="ctl00_GeckoTwoColPrimary_merchantPnl_tempSignUp" class="join-form">
-                            <link rel="stylesheet" href="{{asset('topCashback')}}/bundles/static/css/join-form-4173c64af7.css" type="text/css" />
+                            <link rel="stylesheet" href="{{asset('topcashback')}}/bundles/static/css/join-form-4173c64af7.css" type="text/css" />
                             <form action="https://www.topcashback.com/action_page.php">
                                 <div id="formContainer" >
                                   
@@ -105,7 +105,7 @@
                     <div class="gecko-deeplink-box-container featured gecko-single-container deeplink-deal-box" onclick="logClick();window.open('https://www.topcashback.com/EarnCashback.aspx?mpurl=Bata&amp;mpID=1011816');">
                         <div class="gecko-deeplink-main-content">
                             <div class="gecko-merchant-deeplink-logo">
-                                <img id="ctl00_GeckoTwoColPrimary_merchantCodePnl_ctl00_imgMerchantLogo" class="gecko-deeplink-logo" src="{{asset('topCashback')}}/images/suppliers/square-logos/Bata_sq.png" />
+                                <img id="ctl00_GeckoTwoColPrimary_merchantCodePnl_ctl00_imgMerchantLogo" class="gecko-deeplink-logo" src="{{asset('topcashback')}}/images/suppliers/square-logos/Bata_sq.png" />
                             </div>
                             <div class="gecko-merchant-deeplink-content">
                                 <span id="ctl00_GeckoTwoColPrimary_merchantCodePnl_ctl00_lblCodeTitle" class="gecko-deeplink-title">Shop New Women's Sale Styles at Bata.com</span>
@@ -119,7 +119,7 @@
                     <div class="gecko-deeplink-box-container featured gecko-single-container deeplink-deal-box" onclick="logClick();window.open('https://www.topcashback.com/EarnCashback.aspx?mpurl=Bata&amp;mpID=1011816');">
                         <div class="gecko-deeplink-main-content">
                             <div class="gecko-merchant-deeplink-logo">
-                                <img id="ctl00_GeckoTwoColPrimary_merchantCodePnl_ctl01_imgMerchantLogo" class="gecko-deeplink-logo" src="{{asset('topCashback')}}/images/suppliers/square-logos/Bata_sq.png" />
+                                <img id="ctl00_GeckoTwoColPrimary_merchantCodePnl_ctl01_imgMerchantLogo" class="gecko-deeplink-logo" src="{{asset('topcashback')}}/images/suppliers/square-logos/Bata_sq.png" />
                             </div>
                             <div class="gecko-merchant-deeplink-content">
                                 <span id="ctl00_GeckoTwoColPrimary_merchantCodePnl_ctl01_lblCodeTitle" class="gecko-deeplink-title">Save up to 40% on Select Boy's Styles!</span>
@@ -133,7 +133,7 @@
                     <div class="gecko-deeplink-box-container featured gecko-single-container deeplink-deal-box" onclick="logClick();window.open('https://www.topcashback.com/EarnCashback.aspx?mpurl=Bata&amp;mpID=1011816');">
                         <div class="gecko-deeplink-main-content">
                             <div class="gecko-merchant-deeplink-logo">
-                                <img id="ctl00_GeckoTwoColPrimary_merchantCodePnl_ctl02_imgMerchantLogo" class="gecko-deeplink-logo" src="{{asset('topCashback')}}/images/suppliers/square-logos/Bata_sq.png" />
+                                <img id="ctl00_GeckoTwoColPrimary_merchantCodePnl_ctl02_imgMerchantLogo" class="gecko-deeplink-logo" src="{{asset('topcashback')}}/images/suppliers/square-logos/Bata_sq.png" />
                             </div>
                             <div class="gecko-merchant-deeplink-content">
                                 <span id="ctl00_GeckoTwoColPrimary_merchantCodePnl_ctl02_lblCodeTitle" class="gecko-deeplink-title">Shop Spring Essentials at Bata.com</span>
@@ -147,7 +147,7 @@
                     <div class="gecko-deeplink-box-container featured gecko-single-container deeplink-deal-box" onclick="logClick();window.open('https://www.topcashback.com/EarnCashback.aspx?mpurl=Bata&amp;mpID=1011816');">
                         <div class="gecko-deeplink-main-content">
                             <div class="gecko-merchant-deeplink-logo">
-                                <img id="ctl00_GeckoTwoColPrimary_merchantCodePnl_ctl03_imgMerchantLogo" class="gecko-deeplink-logo" src="{{asset('topCashback')}}/images/suppliers/square-logos/Bata_sq.png" />
+                                <img id="ctl00_GeckoTwoColPrimary_merchantCodePnl_ctl03_imgMerchantLogo" class="gecko-deeplink-logo" src="{{asset('topcashback')}}/images/suppliers/square-logos/Bata_sq.png" />
                             </div>
                             <div class="gecko-merchant-deeplink-content">
                                 <span id="ctl00_GeckoTwoColPrimary_merchantCodePnl_ctl03_lblCodeTitle" class="gecko-deeplink-title">Free Shipping with $150 order.</span>
@@ -183,7 +183,7 @@
                                 <li>Orders deemed by Bata to be used for reselling purposes.</li>
                                 <li>The purchase or redemption of gift cards.</li>
                                 <li>Student, Military or Birthday coupon codes will not be eligible for cash back.</li>
-                                <li>Combining promotions from another site and/or using a coupon code not posted and approved by TopCashback</li>
+                                <li>Combining promotions from another site and/or using a coupon code not posted and approved by topcashback</li>
                                 <li>Returning, exchanging or cancelling part of your order.</li>
                                 <li>Purchases made on other sites than Bata's US site</li>
                             </ul>
@@ -248,11 +248,11 @@
                             <a id="ctl00_GeckoTwoColSecondary_MerchantNavigation_hypReviews" href="reviews/1/index.html">
                                 <span id="ctl00_GeckoTwoColSecondary_MerchantNavigation_lblReviews">Reviews</span>
                                 <span id="ctl00_GeckoTwoColSecondary_MerchantNavigation_lblReviewStars" class="gecko-review-stars">
-                                    <img src="{{asset('topCashback')}}/images/gecko-images/icons/star.png" alt="Gold Star" />
-                                    <img src="{{asset('topCashback')}}/images/gecko-images/icons/star.png" alt="Gold Star" />
-                                    <img src="{{asset('topCashback')}}/images/gecko-images/icons/star.png" alt="Gold Star" />
-                                    <img src="{{asset('topCashback')}}/images/gecko-images/icons/star.png" alt="Gold Star" />
-                                    <img src="{{asset('topCashback')}}/images/gecko-images/icons/stargrey.png" alt="Grey Star" />
+                                    <img src="{{asset('topcashback')}}/images/gecko-images/icons/star.png" alt="Gold Star" />
+                                    <img src="{{asset('topcashback')}}/images/gecko-images/icons/star.png" alt="Gold Star" />
+                                    <img src="{{asset('topcashback')}}/images/gecko-images/icons/star.png" alt="Gold Star" />
+                                    <img src="{{asset('topcashback')}}/images/gecko-images/icons/star.png" alt="Gold Star" />
+                                    <img src="{{asset('topcashback')}}/images/gecko-images/icons/stargrey.png" alt="Grey Star" />
                                 </span>
                             </a>
                         </li>
@@ -277,7 +277,7 @@
                             name="ctl00$GeckoTwoColSecondary$DealBoxControl$ctl00$imgDealBox"
                             id="ctl00_GeckoTwoColSecondary_DealBoxControl_ctl00_imgDealBox"
                             class="dealbox-image"
-                            src="{{asset('topCashback')}}/images/banners/Bataofferstile.png"
+                            src="{{asset('topcashback')}}/images/banners/Bataofferstile.png"
                             onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$GeckoTwoColSecondary$DealBoxControl$ctl00$imgDealBox", "", true, "", "", false, false))'
                         />
                     </div>
@@ -321,22 +321,22 @@
                     </p>
                     <ul class="gecko-sidebar-faq">
                         <li>
-                            <span id="ctl00_GeckoTwoColSecondary_merchantFAQ_labelHowDoesTCBMakeMoneyHeader" class="new-aboutbox-closed" onclick="Toggleaboutbox(this)">How does TopCashback make money?</span>
+                            <span id="ctl00_GeckoTwoColSecondary_merchantFAQ_labelHowDoesTCBMakeMoneyHeader" class="new-aboutbox-closed" onclick="Toggleaboutbox(this)">How does topcashback make money?</span>
                             <span id="ctl00_GeckoTwoColSecondary_merchantFAQ_labelHowDoesTCBMakeMoneyContent" class="new-aboutbox-open-content" style="display: none;">
                                 We’re simply supported by sponsored ads and promotions dotted around the site, and retailers also pay us a bonus sometimes if we send a lot of shoppers their way.
                             </span>
                         </li>
                         <li>
-                            <span id="ctl00_GeckoTwoColSecondary_merchantFAQ_labelHowDoesTCBWorkHeader" class="new-aboutbox-closed" onclick="Toggleaboutbox(this)">How does TopCashback work?</span>
+                            <span id="ctl00_GeckoTwoColSecondary_merchantFAQ_labelHowDoesTCBWorkHeader" class="new-aboutbox-closed" onclick="Toggleaboutbox(this)">How does topcashback work?</span>
                             <span id="ctl00_GeckoTwoColSecondary_merchantFAQ_labelHowDoesTCBWorkContent" class="new-aboutbox-open-content" style="display: none;">
-                                When you buy something from a retailer after clicking through from TopCashback, the retailer will pay us a small amount for sending you to their website. We pass this straight back onto you as
+                                When you buy something from a retailer after clicking through from topcashback, the retailer will pay us a small amount for sending you to their website. We pass this straight back onto you as
                                 cashback.
                             </span>
                         </li>
                         <li>
                             <span id="ctl00_GeckoTwoColSecondary_merchantFAQ_labelWillItCostMeAnythingHeader" class="new-aboutbox-closed" onclick="Toggleaboutbox(this)">Will it cost me anything?</span>
                             <span id="ctl00_GeckoTwoColSecondary_merchantFAQ_labelWillItCostMeAnythingContent" class="new-aboutbox-open-content" style="display: none;">
-                                TopCashback is completely free to join and use. There are no hidden charges so you can earn money back on your shopping for free.
+                                topcashback is completely free to join and use. There are no hidden charges so you can earn money back on your shopping for free.
                             </span>
                         </li>
                         <li>
@@ -354,7 +354,7 @@
         <div class="gecko-primary-sub"></div>
     </div>
     <div class="clearfix"></div>
-    <link rel="stylesheet" href="{{asset('topCashback')}}/bundles/static/css/footer-384d409715.css" type="text/css" />
+    <link rel="stylesheet" href="{{asset('topcashback')}}/bundles/static/css/footer-384d409715.css" type="text/css" />
     <div id="ctl00_ctl14_DynamicSection_DynamicPanel" class="dynamic-section"></div>
     <!-- <div class="link-section">
         <div class="footer-links-column-wrapper">
@@ -388,7 +388,7 @@
                     <span id="ctl00_ctl14_LinkSection_GetToKnowUsSection_lblHeader">Get to know us</span>
                 </div>
                 <div class="link-body">
-                    <a id="ctl00_ctl14_LinkSection_GetToKnowUsSection_hypAboutTopCashback" class="link-item" href="https://www.topcashback.com/about" target="_blank">About TopCashback</a>
+                    <a id="ctl00_ctl14_LinkSection_GetToKnowUsSection_hypAbouttopcashback" class="link-item" href="https://www.topcashback.com/about" target="_blank">About topcashback</a>
                     <a id="ctl00_ctl14_LinkSection_GetToKnowUsSection_hypEbatesVsOurselves" class="link-item" href="https://www.topcashback.com/ebates">Rakuten Vs Ourselves</a>
                 </div>
             </div>
@@ -432,7 +432,7 @@
             </div>
             <div class="legal-social-panel social-links">
                 <a id="ctl00_ctl14_LegalSocialSection_FacebookLink" title="Facebook" class="footer-social-icon footer-icon-facebook" rel="noopener" href="https://www.facebook.com/topcashbackUSA" target="_blank"></a>
-                <a id="ctl00_ctl14_LegalSocialSection_TwitterLink" title="Twitter" class="footer-social-icon footer-icon-twitter" rel="noopener" href="https://twitter.com/TopCashBackusa" target="_blank"></a>
+                <a id="ctl00_ctl14_LegalSocialSection_TwitterLink" title="Twitter" class="footer-social-icon footer-icon-twitter" rel="noopener" href="https://twitter.com/topcashbackusa" target="_blank"></a>
                 <a id="ctl00_ctl14_LegalSocialSection_LinkedinLink" title="LinkedIn" class="footer-social-icon footer-icon-linkedin" rel="noopener" href="https://www.linkedin.com/company/topcashback" target="_blank"></a>
                 <a id="ctl00_ctl14_LegalSocialSection_InstagramLink" title="Instagram" class="footer-social-icon footer-icon-instagram" rel="noopener" href="https://www.instagram.com/topcashbackusa" target="_blank"></a>
                 <a id="ctl00_ctl14_LegalSocialSection_PinterestLink" title="Pinterest" class="footer-social-icon footer-icon-pinterest" rel="noopener" href="https://www.pinterest.com/topcashbackUSA/" target="_blank"></a>
