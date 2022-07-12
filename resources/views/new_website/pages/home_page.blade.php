@@ -30,12 +30,12 @@
         </div>
         <div class="carousel-controls">
             <div class="carousel-control carousel-control-left" role="button"
-                style="opacity:1 !important; height: 33px;width: 33px;border-radius: 50%;background: #195e7345;">
-                <span class="carousel-control-prev-icon" style="margin-top: 6px;margin-left: 5px;"></span>
+                style="opacity:1 !important; height: 30px;width: 30px;border-radius: 50%;background:white;padding-top:3px;box-shadow: 0px 4px 8px #0a164626;">
+                <span style="margin-top: 6px;margin-left: 10px;"><i class="fa-solid fa-chevron-left"></i></span>
             </div>
             <div class="carousel-control carousel-control-right" role="button"
-                style="opacity:1 !important; height: 33px;width: 33px;border-radius: 50%;background: #195e7345; ">
-                <span class="carousel-control-next-icon" style="margin-top: 6px;margin-left: 5px;"></span>
+                style="opacity:1 !important; height: 30px;width: 30px;border-radius: 50%;background: white;padding-top: 3px;padding-left:4px;box-shadow: 0px 4px 8px #0a164626;">
+                <span style="margin-top: 6px;margin-left: 6px;"><i class="fa-solid fa-chevron-right"></i></span>
 
             </div>
         </div>

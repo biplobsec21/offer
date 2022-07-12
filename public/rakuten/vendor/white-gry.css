@@ -333,7 +333,8 @@ fill:#8529cd
   }
 
   .section-with-carousel .carousel-controls {
-    padding: 0 50px;
+    /* padding: 0 50px; */
+    padding-left:0px ;
   }
 }
 
