@@ -14,8 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
+// Route::middleware('auth:api')->get('/user', function (Request $request) {
+//     return $request->user();
+// });
 Route::post('orderrequest', 'Admin\InboxController@post')->name('orderRequest');
 Route::post('updateStatus', 'Admin\InboxController@updateStatus')->name('updateStatus');

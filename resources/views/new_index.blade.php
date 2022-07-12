@@ -22,7 +22,7 @@
   <link id="effect" rel="stylesheet" type="text/css" media="all" href="{{asset('rakuten/vendor/fade-down.css')}}" />
   <link rel="stylesheet" type="text/css" media="all" href="{{asset('rakuten/vendor/webslidemenu.css')}}" />
 
-  <link id="theme" rel="stylesheet" type="text/css" media="all" href="{{asset('rakuten/vendor/white-gry.css')}}" />
+  <link id="theme" rel="stylesheet" type="text/css" media="all" href="{{asset('rakuten/vendor')}}/white-gry.css?{{time()}}" />
 
   <!-- Include Below JS After Your jQuery.min File -->
   <script type="text/javascript" src="{{asset('rakuten/vendor/webslidemenu.js')}}"></script>
